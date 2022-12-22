@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>チーム開発</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Iceland|Lobster|Megrim|Mountains+of+Christmas|Oleo+Script|Playball|Poiret+One|Unica+One&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class="header">
+    <section class="header-logo">旅館を抽選するやつ</section>
+  </div>
+
+  <div class="main">
+    <div class="main-visual">
+      <!--div class="imgvisual">aaaa</div-->
+    </div>
+    <div class="contents">
+      <p>
+        抽選結果
+      </p>
+
+      <p>{{ middle }}</p>
+      <p>{{ small }}</p>
+      {% if detail_existed == True %}
+      <p>{{ detail }}</p>
+      {% endif %}
+    
+      <p>{{ hotel_name }}</p>
+      <p>口コミ評価：{{ hotel_rating_ave }}</p>
+      <a href={{ hotel_url }}>詳細を見る</a>
+
+      <br>
+      <br>
+
+      <a href="/result">もう一度抽選する</a>
+      <br>
+      <a href="/">トップに戻る</a>
+
+    </div>
+  </div>
+
+  
+</body>
+</html>
