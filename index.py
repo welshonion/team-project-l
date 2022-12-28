@@ -60,7 +60,7 @@ def result(selected_area):
     area_info_list = []
     for area_idx in range(AREA_NUM):
         area_info = rakutenapi.AreaInfo()
-        area_info.load_from_session(session[f'area_info_json_{area_idx}'])
+        area_info.load_from_session(session[f'area_info_json_{selected_area}'])
         area_info_list.append(area_info)
     area_info = area_info_list[selected_area]
     area_info_dict = area_info.get_dict()
