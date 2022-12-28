@@ -16,28 +16,28 @@
   </div>
 
   <div class="main">
-    <div class="main-visual">
-      <!--div class="imgvisual">aaaa</div-->
-    </div>
     <div class="contents">
-      <p>
-        抽選結果
+
+      <p>あなたの旅行先は・・・
+        {{ area_info_dict["middle_class_name"] }}
+        {{ area_info_dict["small_class_name"] }}
+        {% if area_info_dict["detail_existed"] == True %}
+          {{ area_info_dict["detail_class_name"] }}
+        {% endif %}
+        !!
       </p>
 
-      <p>{{ middle }}</p>
-      <p>{{ small }}</p>
-      {% if detail_existed == True %}
-      <p>{{ detail }}</p>
-      {% endif %}
-    
-      <p>{{ hotel_name }}</p>
-      <p>口コミ評価：{{ hotel_rating_ave }}</p>
-      <a href={{ hotel_url }}>詳細を見る</a>
+      <p>周辺の宿泊先は・・・</p>
+
+      <p>{{ hotel_info_dict['hotel_name'] }}</p>
+      <p>口コミ評価：{{ hotel_info_dict['hotel_rating_ave'] }}</p>
+      <a href={{ hotel_info_dict['hotel_url'] }}>詳細を見る</a>
 
       <br>
       <br>
+      <br>
 
-      <a href="/result">もう一度抽選する</a>
+      <a href="/select">もう一度抽選する</a>
       <br>
       <a href="/">トップに戻る</a>
 
