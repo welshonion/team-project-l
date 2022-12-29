@@ -1,25 +1,24 @@
-import logo from './figs/tizutyan.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          なんか回転する
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react'; //Reactを読み込んでいる
+//画面遷移で使用する{ BrowserRouter, Route, Switch }を'react-router-dom'から読み込んでいる
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// ページの読み込み
+import topPage from './pages/topPage';
+import selectPage from './pages/selectPage';
+import resultPage from './pages/resultPage';
+ 
+ 
+class App extends React.Component {
+  render(){
+    return(
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={topPage} />
+          <Route exact path="/select" component={selectPage} />
+          <Route exact path="/result" component={resultPage} />
+        </Switch>
+      </BrowserRouter>
+    );
+  };
 }
-
+ 
 export default App;
