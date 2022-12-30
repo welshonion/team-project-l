@@ -1,6 +1,7 @@
 import React from "react";
 import Plot from 'react-plotly.js';
 
+{/* <Map latitude={緯度} longitude={経度} hotel_name="琵琶湖マリオットホテル" /> */ }
 class Map extends React.Component {
     render() {
         return (
