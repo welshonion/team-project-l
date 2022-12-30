@@ -1,6 +1,15 @@
 body {
-    background-color: #FFF0C8;
+    background-color: #FFF4E1;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
+
+.h2 {
+  color: #7EC2C2;
+  font-size: 40px; 
+}
 
 .App {
     text-align: center;
