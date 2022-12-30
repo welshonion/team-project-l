@@ -17,12 +17,29 @@
 
   <div class="main">
     <div class="contents">
-      <p>旅する？</p>
-      
-      <a href="/select">旅する！</a>
+      <p>
+        どこにする？？
+      </p>
+
+      {% for i in range(area_num) %}
+
+        <p>{{ area_info_dict_list[i]["middle_class_name"] }}</p>
+        <p>{{ area_info_dict_list[i]["small_class_name"] }}</p>
+        {% if area_info_dict_list[i]["detail_existed"] == True %}
+          <p>{{ area_info_dict_list[i]["detail_class_name"] }}</p>
+        {% endif %}
+
+        <a href="{{ url_for('result',selected_area=i) }}"">ここに決めた！</a>
+
+      {% endfor %}
+
+      <br>
+      <br>
+      <a href="/">トップに戻る</a>
 
     </div>
   </div>
 
+  
 </body>
 </html>
