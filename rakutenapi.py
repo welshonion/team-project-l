@@ -136,11 +136,16 @@ class HotelInfo():
         hotel_name = hotel[0]['hotelBasicInfo']['hotelName']
         hotel_rating_ave = hotel[0]['hotelBasicInfo']['reviewAverage']
         hotel_url = hotel[0]['hotelBasicInfo']['hotelInformationUrl']
+        latitude = hotel[0]['hotelBasicInfo']['latitude']
+        longitude = hotel[0]['hotelBasicInfo']['longitude']
+
         print(hotel_name)
 
         self.hotel_name = hotel_name
         self.hotel_rating_ave = hotel_rating_ave
         self.hotel_url = hotel_url
+        self.latitude = latitude
+        self.longitude = longitude
 
         return
 

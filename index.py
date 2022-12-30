@@ -75,6 +75,10 @@ def result(selected_area):
     # 辞書に変換
     hotel_info_dict = hotel_info.get_dict()
 
+    # 緯度経度
+    print(f"latitude:{hotel_info.latitude}")
+    print(f"longitude:{hotel_info.longitude}")
+
     return render_template(
         'result.html', 
         area_info_dict = area_info_dict,
