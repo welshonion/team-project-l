@@ -1,0 +1,30 @@
+body {
+    background-color: #FFF0C8;
+  }
+
+.App {
+    text-align: center;
+  }
+
+.title {
+    color: #7EC2C2;
+    text-align: center;
+    font-size: 55px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    width: 450px;
+    height: 450px;
+    /* animation: App-logo-spin infinite 20s linear; */
+  }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
