@@ -1,8 +1,9 @@
 import React from 'react';
 import './style.css';
 import logo from '../figs/tizutyan.svg'
-import { Button} from '@material-ui/core';
+import {Button, Box} from '@material-ui/core';
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
+import { Link } from "react-router-dom";
 
 class topPage extends React.Component {   //topPageクラスにReact.Componentを継承する
  
@@ -11,9 +12,12 @@ class topPage extends React.Component {   //topPageクラスにReact.Component�
             <div className="App">
                 <h1 className="title">Iikanji no Title</h1>
                 <img src={logo} className="App-logo" alt="logo" />
-                <Button color="secondary" variant="contained" size="large" endIcon={<AddLocationAltIcon />}>
-                    旅する!
-                </Button>
+                <Box textAlign='center'>
+                    <Button color="secondary" variant="contained" size="large" component={Link} to="/select" endIcon={<AddLocationAltIcon />}>
+                        旅する!
+                    </Button>
+                </Box>
+
 
             </div>
         );
