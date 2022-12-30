@@ -5,20 +5,23 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import topPage from './components/topPage';
 import selectPage from './components/selectPage';
 import resultPage from './components/resultPage';
- 
- 
+import Map from './components/Map';
+
+
+
 class App extends React.Component {
-  render(){
-    return(
+  render() {
+    return (
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={topPage} />
           <Route exact path="/select" component={selectPage} />
           <Route exact path="/result" component={resultPage} />
+          <Route exact path="/map" component={Map} />
         </Switch>
       </BrowserRouter>
     );
   };
 }
- 
+
 export default App;
