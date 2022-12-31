@@ -37,3 +37,82 @@ body {
       transform: rotate(360deg);
     }
 }
+
+/*検索結果ページ用*/
+.Button-to-SelectPage {
+  position: absolute; 
+  z-index: 10000; /*これが大きいほど前面に表示される*/
+  top: 650px;
+  left: 150px; 
+  text-align: left;
+}
+
+.Button-to-TopPage {
+  position: absolute; 
+  z-index: 10000;
+  top: 650px; 
+  right: 150px; 
+  text-align: right;
+}
+
+.box1 {
+  padding: 0.0em 1em;
+  margin: 0em 0;
+  width: 230px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #6091d3;/*文字色*/
+  background: #cde4ff;
+  border-radius: 10px;/*角の丸み*/
+}
+
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.Hotels {
+  position: absolute;
+  z-index: 10000;
+  /*top: 300px; /* 上から10px移動 */
+  left: 100px; /* 左から20px移動 */
+}
+
+/*画像ファイルの位置とサイズを調整*/
+.fig_Daibutu {
+  position: absolute; 
+  z-index: 0;
+  top: 400px; 
+  left: 200px; 
+}
+
+
+.fig_Tera {
+  position: absolute; 
+  z-index: 0;
+  top: 300px; 
+  left: 700px; 
+}
+
+.fig_RyokouKaban {
+  position: absolute; 
+  z-index: 100;
+  top: 600px; 
+  left: 700px; 
+}
+
+
+.fig_RyokouKaban2 {
+  position: absolute; 
+  z-index: 100;
+  top: 650px; 
+  left: 500px; 
+}
+
+.fig_HotelMan {
+  position: absolute; 
+  z-index: 0;
+  top: 230px; 
+  left: 400px; 
+}
