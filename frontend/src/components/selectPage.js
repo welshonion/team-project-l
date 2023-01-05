@@ -187,10 +187,10 @@ class selectPage extends React.Component {   //selectPageクラスにReact.Compo
                 </div>
 
                 <div className='select'>
-                        <Button color="default" variant="contained" size='large' onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' >
+                        <Button variant="contained" size='large' onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                             <table className="place">
                                 <tr>
-                                    <td><img src={imglist[selectnum1]} width="200" alt="prefectures1" /></td>
+                                    <td className='figsize2_select'><img src={imglist[selectnum1]} width="200" alt="prefectures1" /></td>
                                 </tr>
                                 <tr>
                                     <tb className="table_font">{namelist[selectnum1]}  <br/>
@@ -203,7 +203,7 @@ class selectPage extends React.Component {   //selectPageクラスにReact.Compo
                         </Button>
                         
 
-                        <Button color='default' variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{ margin: "5%"}}>
+                        <Button variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{ margin: "5%",backgroundColor: "#ffffff"}}>
                             <table className="place">
                                 <tr>
                                     <td><img src={imglist[selectnum2]}  width="200" alt="prefectures2" /></td>
@@ -216,7 +216,7 @@ class selectPage extends React.Component {   //selectPageクラスにReact.Compo
                             </table>
                         </Button>
 
-                        <Button color="default" variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' >
+                        <Button variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                             <table className="place">
                                 <tr>
                                     <td><img src={imglist[selectnum3]}  width="200" alt="prefectures3" /></td>
