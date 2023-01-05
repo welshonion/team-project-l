@@ -53,7 +53,7 @@ import {Button, Box} from '@material-ui/core';
 import { Link } from "react-router-dom";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
-var imglist = new Array(
+var imglist = [
     aichi,
     akita,
     aomori,
@@ -101,9 +101,10 @@ var imglist = new Array(
     yamagata,
     yamaguchi,
     yamanashi,
-);
+];
 
-var namelist = new Array(
+//都道府県名リスト(画像リストの後ろにくっつけて作ろうとしたが画像が表示されなくなったため別途作成)
+var namelist = [
     '愛知県',
     '秋田県',
     '青森県',
@@ -151,7 +152,7 @@ var namelist = new Array(
     '山形県',
     '山口県',
     '山梨県',
-)
+];
 
 //ランダム画像表示
 var selectnum1 = Math.floor(Math.random() * imglist.length);
