@@ -5,7 +5,8 @@
 #config.write_environ()
 
 import os,json
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session, make_response, jsonify
+from flask_cors import CORS
 from datetime import timedelta
 import requests
 import random
@@ -15,7 +16,7 @@ import rakutenapi
 app = Flask(__name__)
 app.secret_key = os.environ['APP_SECRET_KEY']
 app.permanent_session_lifetime = timedelta(minutes=5)
-
+CORS(app)
 AREA_NUM = 3
 HOTEL_NUM = 3
 
@@ -52,22 +53,43 @@ def select():
         # セッションに保存
         session[f'area_info_json_{i}'] = area_info.get_json()
 
-    return render_template(
-        'select.html',
-        area_num = AREA_NUM,
-        area_info_dict_list = area_info_dict_list
-        )
+    # return render_template(
+    #     'select.html',
+    #     area_num = AREA_NUM,
+    #     area_info_dict_list = area_info_dict_list
+    #     )
+    
+    response = {"area_num" : AREA_NUM,
+                "area_info_dict_list" : area_info_dict_list}
 
-@app.route('/result/<int:selected_area>', methods=['GET'])
-def result(selected_area):
 
+    return make_response(jsonify(response))
+
+
+# @app.route('/result/<int:selected_area>', methods=['GET'])
+# def result(selected_area):
+@app.route('/result', methods=['GET','POST'])
+def result():
+    # data = request.get_json()
+    # selected_area = data['selected_area']
+    
     # 選択された地域の情報をセッションから取得
     area_info_list = []
+    area_data_json = rakutenapi.get_area_data_json() #TODO! sessionの代わり
+    prefs = area_data_json['areaClasses']['largeClasses'][0]['largeClass'][1]['middleClasses']
+    pref_idx_list = random.sample(list(range(0,len(prefs))),HOTEL_NUM)
+    
     for i in range(AREA_NUM):
         area_info = rakutenapi.AreaInfo()
-        area_info.load_from_session(session[f'area_info_json_{i}'])
+        print(area_info)
+        # TODO! selectで保存したsessionが消えている
+        # area_info.load_from_session(session[f'area_info_json_{i}'])
+        area_info = rakutenapi.AreaInfo() #TODO! sessionの代わり
+        area_info.load_from_api(area_data_json, pref_idx_list[i])
         area_info_list.append(area_info)
-    area_info = area_info_list[selected_area]
+
+    # area_info = area_info_list[selected_area]
+    area_info = area_info_list[0] #TODO! selected_areaの代わり
     area_info_dict = area_info.get_dict()
 
     # 地域全体のホテル情報をjsonで取得
@@ -93,12 +115,16 @@ def result(selected_area):
         hotel_info_dict_list.append(hotel_info.get_dict())
 
 
-    return render_template(
-        'result.html', 
-        area_info_dict = area_info_dict,
-        hotel_num = HOTEL_NUM,
-        hotel_info_dict_list = hotel_info_dict_list
-        )
+    # return render_template(
+    #     'result.html', 
+    #     area_info_dict = area_info_dict,
+    #     hotel_num = HOTEL_NUM,
+    #     hotel_info_dict_list = hotel_info_dict_list
+    #     )
+    response = {"area_info_dict" : area_info_dict,
+                "hotel_info_dict_list" : hotel_info_dict_list}
+
+    return make_response(jsonify(response))
 
 if __name__ == '__main__':
     app.debug = True
