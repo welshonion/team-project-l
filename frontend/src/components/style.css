@@ -75,7 +75,7 @@ body {
 .Button-to-SelectPage {
   position: absolute; 
   z-index: 10000; /*これが大きいほど前面に表示される*/
-  top: 650px;
+  top: 770px;
   left: 150px; 
   text-align: left;
 }
@@ -83,7 +83,7 @@ body {
 .Button-to-TopPage {
   position: absolute; 
   z-index: 10000;
-  top: 650px; 
+  top: 770px; 
   right: 150px; 
   text-align: right;
 }
@@ -105,11 +105,25 @@ body {
   padding: 0;
 }
 
-.Hotels {
+.card1 {
   position: absolute;
   z-index: 10000;
-  /*top: 300px; /* 上から10px移動 */
+  top: 260px; /* 上から10px移動 */
   left: 100px; /* 左から20px移動 */
+}
+
+.card2 {
+  position: absolute;
+  z-index: 10000;
+  top: 260px; /* 上から10px移動 */
+  left: 500px; /* 左から20px移動 */
+}
+
+.card3 {
+  position: absolute;
+  z-index: 10000;
+  top: 260px; /* 上から10px移動 */
+  left: 950px; /* 左から20px移動 */
 }
 
 /*画像ファイルの位置とサイズを調整*/
@@ -146,6 +160,6 @@ body {
 .fig_HotelMan {
   position: absolute; 
   z-index: 0;
-  top: 230px; 
-  left: 400px; 
+  top: 140px; 
+  left: 350px; 
 }
