@@ -26,18 +26,23 @@ RUN rm Miniconda3-py38_22.11.1-1-Linux-x86_64.sh
 # path setting
 ENV PATH $PATH:/root/miniconda3/bin
 
+# install nodejs
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+RUN apt install -y nodejs
+
+# no cache below
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" /dev/null
 
 # clone repository
 RUN git clone -b feature https://github.com/welshonion/team-project-l.git
 
-# install nodejs
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-RUN apt install -y nodejs
+# npm install 
 WORKDIR /team-project-l/frontend
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" /dev/null
 RUN npm install --save --legacy-peer-deps
 
 # pip
 WORKDIR /team-project-l/backend
 RUN pip install -r requirements.txt
 
-WORKDIR /team-project-l/backend
+WORKDIR /team-project-l
