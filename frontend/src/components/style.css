@@ -40,35 +40,39 @@ body {
 
 /*地域選択画面用*/
 .return_to_top {
-  position: center; 
-  z-index: 10000;
-  top: 700px; 
-  text-align: center;
+position: center; 
+z-index: 10000;
+top: 700px; 
+text-align: center;
 }
 
 .select {
-  position: center; 
-  z-index: 10000;
-  text-align: center;
+position: center; 
+z-index: 10000;
+text-align: center;
 }
 
 .figsize_select {
-  width: 30%;
-  height: 100%;
-  color: rgb(255, 255, 255);
-  background-color:rgb(217, 217, 217);
+width: 30%;
+height: 100%;
 }
 
+.figsize2_select {
+  width: 100%;
+  height: 100%;
+  background-color:rgb(255, 255, 255);
+  }
+
 .table_font {
-  color: #52aab6;
-  font-size: 20px; 
-  font-weight: bolder;
+color: #52aab6;
+font-size: 20px; 
+font-weight: bolder;
 }
 
 .place {
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-  font-size: 18px;
+height: 100%;
+background-color: rgb(255, 255, 255);
+font-size: 18px;
 }
 
 /*検索結果ページ用*/
