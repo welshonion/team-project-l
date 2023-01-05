@@ -1,12 +1,23 @@
 # team-project-l
 
-# Backend
-- Anacondaをインストール
-- このブランチをローカルにクローン
-- config.pyをこのディレクトリに配置
-- anacondaでflask、requestsをインストールした仮想環境を作成
+# 環境構築
 - 以下を実行
 ```
+docker build -t team-l .
+docker run -it -p 5000:5000 -p 3000:3000 --name teal-l team-l 
+```
+- dockerコンテナ内で以下を実行
+```
+cd /team-project-l/
+npm start
+```
+
+
+# Backend
+- 環境変数を入力
+- 以下を実行
+```
+cd /team-project-l/backend
 python index.py
 ```
 - http://127.0.0.1:5000にアクセス

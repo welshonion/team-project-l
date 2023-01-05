@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
 #for local only
-import config
-config.write_environ()
+#import config
+#config.write_environ()
 
 import os,json
 from flask import Flask, render_template, request, redirect, url_for, session, make_response, jsonify
 from flask_cors import CORS
-from requests_oauthlib import OAuth1Session
 from datetime import timedelta
 import requests
 import random
@@ -129,5 +128,5 @@ def result():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(threaded=True)
+    app.run(threaded=True, host='0.0.0.0', port=5000)
     
