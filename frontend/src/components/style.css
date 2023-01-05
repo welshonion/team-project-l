@@ -59,11 +59,10 @@ body {
   background-color:rgb(217, 217, 217);
 }
 
-.figsize2_select {
-  width: 100%;
-  height: 100%;
-  color: rgb(255, 255, 255);
-  background-color:rgb(217, 217, 217);
+.table_font {
+  color: #52aab6;
+  font-size: 20px; 
+  font-weight: bolder;
 }
 
 .place {
