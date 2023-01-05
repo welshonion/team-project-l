@@ -63,7 +63,7 @@ class resultPage extends React.Component {   //resultPageクラスにReact.Compo
 
                 <div className="Hotels">
                     <Stack direction={"row"} spacing={6} >
-                        <div className="cards">
+                        <div className="card1">
                             <Card sx={{ maxWidth: 345 }}> {/* style={{ backgroundColor: "#FFF4E1" }} */}
                                 <CardContent>
                                     <Typography component="div">
@@ -83,7 +83,7 @@ class resultPage extends React.Component {   //resultPageクラスにReact.Compo
                             </Card>
                         </div>
 
-                        <div className="cards">
+                        <div className="card2">
                             <Card sx={{ maxWidth: 345 }}>
                                 <CardContent>
                                     <Typography component="div">
@@ -102,7 +102,7 @@ class resultPage extends React.Component {   //resultPageクラスにReact.Compo
                             </Card>
                         </div>
 
-                        <div className="cards">
+                        <div className="card3">
                             <Card sx={{ maxWidth: 345 }}>
                                 <CardContent>
                                     <Typography component="div">
@@ -141,11 +141,11 @@ class resultPage extends React.Component {   //resultPageクラスにReact.Compo
                 </div>
 
 
-                <img src={fig_Daibutu} className="fig_Daibutu" height="320" alt="fig_Daibutu" />
-                <img src={fig_Tera} className="fig_Tera" height="400" alt="fig_Tera" />
-                <img src={fig_RyokouKaban} className="fig_RyokouKaban" height="200" alt="fig_RyokouKaban" />
-                <img src={fig_RyokouKaban2} className="fig_RyokouKaban2" height="140" alt="fig_RyokouKaban2" />
-                <img src={fig_HotelMan} className="fig_HotelMan" height="160" alt="fig_HotelMan" />
+                <img src={fig_Daibutu} className="fig_Daibutu" height="0" alt="fig_Daibutu" />
+                <img src={fig_Tera} className="fig_Tera" height="0" alt="fig_Tera" />
+                <img src={fig_RyokouKaban} className="fig_RyokouKaban" height="0" alt="fig_RyokouKaban" />
+                <img src={fig_RyokouKaban2} className="fig_RyokouKaban2" height="0" alt="fig_RyokouKaban2" />
+                <img src={fig_HotelMan} className="fig_HotelMan" height="110" alt="fig_HotelMan" />
 
             </div >
         );
