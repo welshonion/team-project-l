@@ -27,12 +27,12 @@ class Map extends React.Component {
                             lat: this.props.latitude,
                             lon: this.props.longitude
                         },
-                        zoom: 5,
+                        zoom: 5.5,
                     },
                     margin: { r: 0, t: 0, b: 0, l: 0 },
                 }}
                 useResizeHandler={true}
-                style={{ width: 600, height: 600 }}
+                style={{ width: 300, height: 300 }}
             />
         );
     }
