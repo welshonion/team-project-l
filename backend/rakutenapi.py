@@ -28,20 +28,20 @@ class AreaInfo():
         self.detail_class_code = 0
         self.detail_class_name = ""
 
-    def load_from_api(self,area_data_json):
+    def load_from_api(self,area_data_json, pref_idx):
 
         #####場所の抽選#####
 
         # 都道府県の抽選
         middle_classes = area_data_json['areaClasses']['largeClasses'][0]['largeClass'][1]['middleClasses']
         #print(len(middle_classes))
-        middle_idx = random.randint(0,len(middle_classes)-1)
-        middle_class_code = middle_classes[middle_idx]['middleClass'][0]['middleClassCode']
-        middle_class_name = middle_classes[middle_idx]['middleClass'][0]['middleClassName']
+        #middle_idx = random.randint(0,len(middle_classes)-1)
+        middle_class_code = middle_classes[pref_idx]['middleClass'][0]['middleClassCode']
+        middle_class_name = middle_classes[pref_idx]['middleClass'][0]['middleClassName']
         print(middle_class_name)
 
         # 地域の抽選
-        small_classes = middle_classes[middle_idx]['middleClass'][1]['smallClasses']
+        small_classes = middle_classes[pref_idx]['middleClass'][1]['smallClasses']
         #print(len(small_classes))
         small_idx = random.randint(0,len(small_classes)-1)
         small_class_code = small_classes[small_idx]['smallClass'][0]['smallClassCode'] 
@@ -126,12 +126,12 @@ class HotelInfo():
         self.hotel_rating_ave = 0
         self.hotel_url = ""
 
-    def load_from_api(self, area_data_json):
+    def load_from_api(self, hotel_data_json, hotel_idx):
 
         # 宿の抽選
-        hotels = area_data_json['hotels']
+        hotels = hotel_data_json['hotels']
         #print(len(hotels))
-        hotel_idx = random.randint(0,len(hotels)-1)
+        #hotel_idx = random.randint(0,len(hotels)-1)
         hotel = hotels[hotel_idx]['hotel']
         hotel_name = hotel[0]['hotelBasicInfo']['hotelName']
         hotel_rating_ave = hotel[0]['hotelBasicInfo']['reviewAverage']
