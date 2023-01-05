@@ -8,6 +8,16 @@ import { Link } from "react-router-dom";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 
+/* ページ間遷移用 */
+const handleClick_select1 = () => {
+    // 同一タブ内で遷移
+    window.location.href = "/result";
+  };
+
+const handleClick_select2 = () => {
+    // 同一タブ内で遷移
+    window.location.href = "/";
+  };
 
 class selectPage extends React.Component {   //selectPageクラスにReact.Componentを継承する
  
@@ -20,13 +30,13 @@ class selectPage extends React.Component {   //selectPageクラスにReact.Compo
 
                 
                 <div className='select'>
-                        <Button color="default" variant="contained" size='large' component={Link} to="/result" className='figsize_select' >
+                        <Button color="default" variant="contained" size='large' onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' >
                             <table className="place">
                                 <tr>
                                     <td><img src={aichi} width="200" alt="logo" /></td>
                                 </tr>
                                 <tr>
-                                    <tb>愛知県  <br/>
+                                    <tb className="table_font">愛知県  <br/>
                                         ○○市・××市・△△市
                                     </tb>
                                 </tr>
@@ -36,26 +46,26 @@ class selectPage extends React.Component {   //selectPageクラスにReact.Compo
                         </Button>
                         
 
-                        <Button color='default' variant="contained" size="large" component={Link} to="/result" className='figsize_select' style={{ margin: "5%"}}>
+                        <Button color='default' variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{ margin: "5%"}}>
                             <table className="place">
                                 <tr>
                                     <td><img src={akita}  height="200" alt="logo" /></td>
                                 </tr>
                                 <tr>
-                                    <tb>秋田県  <br/>
+                                    <tb className="table_font">秋田県  <br/>
                                     ○○市・××市・△△市
                                     </tb>
                                 </tr>
                             </table>
                         </Button>
 
-                        <Button color="default" variant="contained" size="large" component={Link} to="/result" className='figsize_select' >
+                        <Button color="default" variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' >
                             <table className="place">
                                 <tr>
                                     <td><img src={aomori}  height="200" alt="logo" /></td>
                                 </tr>
                                 <tr>
-                                    <tb>青森県  <br/>
+                                    <tb className="table_font">青森県  <br/>
                                     ○○市・××市・△△市
                                     </tb>
                                 </tr>
@@ -67,7 +77,7 @@ class selectPage extends React.Component {   //selectPageクラスにReact.Compo
                 <h1>
                 <div className='return_to_top'>
                     <Box textAlign='center'>
-                        <Button color="secondary" variant="contained" size="large" component={Link} to="/" endIcon={<ArrowBackIosIcon />}>
+                        <Button color="secondary" variant="contained" size="large" onClick={handleClick_select2} component={Link} to="/" endIcon={<ArrowBackIosIcon />}>
                             トップに戻る
                         </Button>
                     </Box>
