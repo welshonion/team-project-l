@@ -40,42 +40,46 @@ body {
 
 /*地域選択画面用*/
 .return_to_top {
-  position: center; 
-  z-index: 10000;
-  top: 700px; 
-  text-align: center;
+position: center; 
+z-index: 10000;
+top: 700px; 
+text-align: center;
 }
 
 .select {
-  position: center; 
-  z-index: 10000;
-  text-align: center;
+position: center; 
+z-index: 10000;
+text-align: center;
 }
 
 .figsize_select {
-  width: 30%;
-  height: 100%;
-  color: rgb(255, 255, 255);
-  background-color:rgb(217, 217, 217);
+width: 30%;
+height: 100%;
 }
 
+.figsize2_select {
+  width: 100%;
+  height: 100%;
+  background-color:rgb(255, 255, 255);
+  }
+
 .table_font {
-  color: #52aab6;
-  font-size: 20px; 
-  font-weight: bolder;
+color: #52aab6;
+font-size: 20px; 
+font-weight: bolder;
 }
 
 .place {
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-  font-size: 18px;
+height: 100%;
+background-color: rgb(255, 255, 255);
+font-size: 18px;
 }
 
 /*検索結果ページ用*/
 .Button-to-SelectPage {
   position: absolute; 
   z-index: 10000; /*これが大きいほど前面に表示される*/
-  top: 650px;
+  top: 770px;
   left: 150px; 
   text-align: left;
 }
@@ -83,7 +87,7 @@ body {
 .Button-to-TopPage {
   position: absolute; 
   z-index: 10000;
-  top: 650px; 
+  top: 770px; 
   right: 150px; 
   text-align: right;
 }
@@ -105,11 +109,25 @@ body {
   padding: 0;
 }
 
-.Hotels {
+.card1 {
   position: absolute;
   z-index: 10000;
-  /*top: 300px; /* 上から10px移動 */
+  top: 260px; /* 上から10px移動 */
   left: 100px; /* 左から20px移動 */
+}
+
+.card2 {
+  position: absolute;
+  z-index: 10000;
+  top: 260px; /* 上から10px移動 */
+  left: 500px; /* 左から20px移動 */
+}
+
+.card3 {
+  position: absolute;
+  z-index: 10000;
+  top: 260px; /* 上から10px移動 */
+  left: 950px; /* 左から20px移動 */
 }
 
 /*画像ファイルの位置とサイズを調整*/
@@ -146,6 +164,6 @@ body {
 .fig_HotelMan {
   position: absolute; 
   z-index: 0;
-  top: 230px; 
-  left: 400px; 
+  top: 140px; 
+  left: 350px; 
 }
