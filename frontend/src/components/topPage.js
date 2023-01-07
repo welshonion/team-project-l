@@ -17,7 +17,7 @@ class TopPage extends React.Component {   //topPageクラスにReact.Component�
                 <h1 className="title">Iikanji no Title</h1>
                 <img src={logo} className="App-logo" alt="logo" />
                 <Box textAlign='center'>
-                    <Button color="secondary" variant="contained" size="large" /*onClick={handleClick1}}*/ component={Link} to="/select" endIcon={<AddLocationAltIcon />}>
+                    <Button color="secondary" variant="contained" size="large" /*onClick={handleClick1}*/ component={Link} to="/select" endIcon={<AddLocationAltIcon />}>
                         旅する!
                     </Button>
                 </Box>

@@ -43,6 +43,12 @@ const ResultPage = () => {
     const location = useLocation();
     const areaInfoDict = location.state.areaInfoDict;
 
+    const handleClick = (index) => {
+        if(hotelInfoDictList.length){
+            window.open(hotelInfoDictList[index]["hotel_url"]);
+        }
+    }
+
     useEffect(() =>{
         Axios.post("http://127.0.0.1:5000/result",{area_info_dict: areaInfoDict})
             .then((res) => {
@@ -64,24 +70,13 @@ const ResultPage = () => {
                 <h2>周辺の宿泊施設</h2>
             </div>
 
-            {/* <div className="Hotels">
-                <h2>▶︎ <a href="example.html">○○ホテル</a></h2>
-                <p> 口コミ評価 : ××× </p>
-
-                <h2>▶︎ <a href="example.html">○○ホテル</a> </h2>
-                <p> 口コミ評価 : ××× </p>
-
-                <h2> ▶︎ <a href="example.html">○○ホテル</a> </h2>
-                <p> </p>
-            </div> */}
-
             <div className="Hotels">
                 <Stack direction={"row"} spacing={6} >
                     <div className="cards">
                         <Card sx={{ maxWidth: 345 }}> {/* style={{ backgroundColor: "#FFF4E1" }} */}
                             <CardContent>
                                 <Typography component="div">
-                                    <h2><a href="example.html">{hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""}</a></h2>
+                                    <h2><a target="_blank" href={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_url"] : ""}>{hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""}</a></h2>
                                 </Typography>
                                 <Typography variant="body2" >
                                     口コミ評価 : {hotelInfoDictList.length? hotelInfoDictList[0]["hotel_rating_ave"] : ""}
@@ -91,8 +86,7 @@ const ResultPage = () => {
                             <Map latitude={hotelInfoDictList.length? hotelInfoDictList[0]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[0]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} />
 
                             <CardActions>
-                                {/* 「予約する！」を押すと楽天のページに飛ぶ機能はまだできてないです */}
-                                <Button size="small" align="center">予約する！</Button>
+                                <Button size="small" align="center" onClick={() => handleClick(0)} >予約する！</Button>
                             </CardActions>
                         </Card>
                     </div>
@@ -101,7 +95,7 @@ const ResultPage = () => {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardContent>
                                 <Typography component="div">
-                                    <h2><a href="example.html">{hotelInfoDictList.length? hotelInfoDictList[1]["hotel_name"] : ""}</a></h2>
+                                    <h2><a target="_blank" href={hotelInfoDictList.length? hotelInfoDictList[1]["hotel_url"] : ""}>{hotelInfoDictList.length? hotelInfoDictList[1]["hotel_name"] : ""}</a></h2>
                                 </Typography>
                                 <Typography variant="body2" >
                                     口コミ評価 : {hotelInfoDictList.length? hotelInfoDictList[1]["hotel_rating_ave"] : ""}
@@ -111,7 +105,7 @@ const ResultPage = () => {
                             <Map latitude={hotelInfoDictList.length? hotelInfoDictList[1]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[1]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[1]["hotel_name"] : ""} />
 
                             <CardActions>
-                                <Button size="small" align="center" >予約する！</Button>
+                                <Button size="small" align="center" onClick={() => handleClick(1)} >予約する！</Button>
                             </CardActions>
                         </Card>
                     </div>
@@ -120,7 +114,7 @@ const ResultPage = () => {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardContent>
                                 <Typography component="div">
-                                    <h2><a href="example.html">{hotelInfoDictList.length? hotelInfoDictList[2]["hotel_name"] : ""}</a></h2>
+                                    <h2><a target="_blank" href={hotelInfoDictList.length? hotelInfoDictList[2]["hotel_url"] : ""}>{hotelInfoDictList.length? hotelInfoDictList[2]["hotel_name"] : ""}</a></h2>
                                 </Typography>
                                 <Typography variant="body2" >
                                     口コミ評価 : {hotelInfoDictList.length? hotelInfoDictList[2]["hotel_rating_ave"] : ""}
@@ -130,7 +124,7 @@ const ResultPage = () => {
                             <Map latitude={hotelInfoDictList.length? hotelInfoDictList[2]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[2]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[2]["hotel_name"] : ""} />
 
                             <CardActions>
-                                <Button size="small" align="center">予約する！</Button>
+                                <Button size="small" align="center" onClick={() => handleClick(2)} >予約する！</Button>
                             </CardActions>
                         </Card>
                     </div>
