@@ -1,13 +1,11 @@
 import React,{useState,useEffect} from 'react';
 import Axios from 'axios';
 import './style.css';
-import aichi from '../figs/prefs/aichi.png'
-import akita from '../figs/prefs/akita.png'
-import aomori from '../figs/prefs/aomori.png'
 import {Button, Box} from '@material-ui/core';
 import { Link } from "react-router-dom";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
+import ImgPrefs from './ImgPrefs';
 
 /* ページ間遷移用 */
 // const handleClick_select1 = () => {
@@ -46,7 +44,7 @@ const SelectPage = () => {
                         <table className="place">
                             <tbody>
                                 <tr>
-                                    <td><img src={aichi} width="200" alt="logo" /></td>
+                                    <td><ImgPrefs prefs={areaInfoDictList.length ? areaInfoDictList[0]["middle_class_name"]:""} width="200"/></td>
                                 </tr>
                                 <tr>
                                     <td className="table_font">{areaInfoDictList.length ? areaInfoDictList[0]["middle_class_name"] : ""}<br/>
@@ -62,7 +60,7 @@ const SelectPage = () => {
                         <table className="place">
                             <tbody>
                                 <tr>
-                                    <td><img src={akita}  height="200" alt="logo" /></td>
+                                    <td><ImgPrefs prefs={areaInfoDictList.length ? areaInfoDictList[1]["middle_class_name"]:""} width="200"/></td>
                                 </tr>
                                 <tr>
                                     <td className="table_font">{areaInfoDictList.length ? areaInfoDictList[1]["middle_class_name"] : ""}<br/>
@@ -77,7 +75,7 @@ const SelectPage = () => {
                         <table className="place">
                             <tbody>
                                 <tr>
-                                    <td><img src={aomori}  height="200" alt="logo" /></td>
+                                    <td><ImgPrefs prefs={areaInfoDictList.length ? areaInfoDictList[2]["middle_class_name"]:""} width="200"/></td>
                                 </tr>
                                 <tr>
                                     <td className="table_font">{areaInfoDictList.length ? areaInfoDictList[2]["middle_class_name"] : ""}<br/>
