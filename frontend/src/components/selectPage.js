@@ -23,15 +23,14 @@ const SelectPage = () => {
     const [areaInfoDictList, setAreaInfoDictList] = useState([]);
 
     useEffect(() =>{
-        try{
-            Axios.get("http://127.0.0.1:5000/select")
-                .then((res) => {
-                    // setAreaNum(res.data.area_num);
-                    setAreaInfoDictList(res.data.area_info_dict_list);
-                })
-        }catch(error){
-            console.error(error);
-        }   
+        Axios.get("http://127.0.0.1:5000/select")
+            .then((res) => {
+                // setAreaNum(res.data.area_num);
+                setAreaInfoDictList(res.data.area_info_dict_list);
+            })
+            .catch((error) => {
+                console.error(error);
+            })   
     } , []);
 
     return (

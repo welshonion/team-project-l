@@ -44,16 +44,14 @@ const ResultPage = () => {
     const areaInfoDict = location.state.areaInfoDict;
 
     useEffect(() =>{
-        try{
-            // TODO! ランダムに選んだindexをselectPageからとってこれない
-            Axios.post("http://127.0.0.1:5000/result",{area_info_dict: areaInfoDict})
-                .then((res) => {
-                    setHotelInfoDictList(res.data.hotel_info_dict_list);
-                    console.log(res.data.hotel_info_dict_list);
-                })
-        }catch(error){
-            console.error(error);
-        }  
+        Axios.post("http://127.0.0.1:5000/result",{area_info_dict: areaInfoDict})
+            .then((res) => {
+                setHotelInfoDictList(res.data.hotel_info_dict_list);
+            })
+            .catch((error) => {
+                console.error(error);
+            })   
+    // eslint-disable-next-line  
     } , []);
                          
     return (    //画面表示の為のrenderメソッドを定義する
@@ -90,7 +88,7 @@ const ResultPage = () => {
                                 </Typography>
                             </CardContent>
 
-                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} />
+                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[0]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[0]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} />
 
                             <CardActions>
                                 {/* 「予約する！」を押すと楽天のページに飛ぶ機能はまだできてないです */}
