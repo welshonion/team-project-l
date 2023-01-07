@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 #for local only
-import config
-config.write_environ()
+# import config
+# config.write_environ()
 
 import os,json
 from flask import Flask, render_template, request, redirect, url_for, session, make_response, jsonify
