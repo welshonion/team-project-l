@@ -1,5 +1,5 @@
 // REACTのインポート
-import React, { useState,useMemo,useEffect} from 'react';
+import React, { useState,useEffect} from 'react';
 import Axios from 'axios';
 // cssファイルのインポート
 import './style.css';
@@ -14,8 +14,7 @@ import { Button, Box } from '@material-ui/core';
 // アイコン部品をインポート(https://mui.com/material-ui/material-icons/ から検索できる)
 import ReplayIcon from '@mui/icons-material/Replay';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import { Link } from "react-router-dom";
-
+import { Link,useLocation} from "react-router-dom";
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -28,35 +27,33 @@ import Map from './Map';
 
 
 /* ページ間遷移用 */
-const handleClick1 = () => {
-    // 同一タブ内で遷移
-    window.location.href = "/select";
-};
+// const handleClick1 = () => {
+//     // 同一タブ内で遷移
+//     window.location.href = "/select";
+// };
 
-const handleClick2 = () => {
-    // 同一タブ内で遷移
-    window.location.href = "/";
-};
+// const handleClick2 = () => {
+//     // 同一タブ内で遷移
+//     window.location.href = "/";
+// };
 
 
 const ResultPage = () => {
-    const [areaInfoDict, setAreaInfoDict] = useState();
     const [hotelInfoDictList, setHotelInfoDictList] = useState([]);
+    const location = useLocation();
+    const areaInfoDict = location.state.areaInfoDict;
 
     useEffect(() =>{
         try{
             // TODO! ランダムに選んだindexをselectPageからとってこれない
-            // Axios.post("http://127.0.0.1:5000/result",{selected_area: 1})
-            Axios.get("http://127.0.0.1:5000/result")
+            Axios.post("http://127.0.0.1:5000/result",{area_info_dict: areaInfoDict})
                 .then((res) => {
-                    setAreaInfoDict(res.data.area_info_dict);
-                    console.log(res.data.hotel_info_dict_list);
                     setHotelInfoDictList(res.data.hotel_info_dict_list);
+                    console.log(res.data.hotel_info_dict_list);
                 })
         }catch(error){
             console.error(error);
         }  
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     } , []);
                          
     return (    //画面表示の為のrenderメソッドを定義する
@@ -66,7 +63,7 @@ const ResultPage = () => {
             </div>
 
             <div className="box1">
-                <p><h2>周辺の宿泊施設</h2></p>
+                <h2>周辺の宿泊施設</h2>
             </div>
 
             {/* <div className="Hotels">
@@ -145,7 +142,7 @@ const ResultPage = () => {
 
             <div className="Button-to-SelectPage">
                 <Box textAlign='center'>
-                    <Button color="secondary" variant="contained" size="large" onClick={handleClick1} component={Link} to="/select" endIcon={<ReplayIcon />}>
+                    <Button color="secondary" variant="contained" size="large" component={Link} /*onClick={handleClick1}*/ to="/select" endIcon={<ReplayIcon />}>
                         もう一度抽選する
                     </Button>
                 </Box>
@@ -153,7 +150,7 @@ const ResultPage = () => {
 
             <div className="Button-to-TopPage">
                 <Box textAlign='center'>
-                    <Button color="secondary" variant="contained" size="large" onClick={handleClick2} component={Link} to="/" endIcon={<ArrowBackIosIcon />}>
+                    <Button color="secondary" variant="contained" size="large" component={Link} /*onClick={handleClick1}*/ to="/" endIcon={<ArrowBackIosIcon />}>
                         トップに戻る
                     </Button>
                 </Box>
@@ -165,7 +162,6 @@ const ResultPage = () => {
             <img src={fig_RyokouKaban} className="fig_RyokouKaban" height="200" alt="fig_RyokouKaban" />
             <img src={fig_RyokouKaban2} className="fig_RyokouKaban2" height="140" alt="fig_RyokouKaban2" />
             <img src={fig_HotelMan} className="fig_HotelMan" height="160" alt="fig_HotelMan" />
-
         </div >
     );
     
