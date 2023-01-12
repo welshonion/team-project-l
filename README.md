@@ -1,6 +1,7 @@
 # team-project-l
 
 # 環境構築
+## dockerコンテナの起動
 - このリポジトリをクローンする
 - config.pyファイルを取得(セキュリティのため取得方法は別途指定)
 - config.pyをこのリポジトリのディレクトリ直下に配置
@@ -13,19 +14,22 @@ docker cp config.py teal-l-f:/team-project-l
 docker cp config.py teal-l-b:/team-project-l
 ```
 
-# Backend
-- 環境変数を入力
+## Backend
 - dockerコンテナ(teal-l-b)内で以下を実行
 ```
 cd /team-project-l/backend
 python index.py
 ```
-- http://127.0.0.1:5000にアクセス
+- URLはhttp://127.0.0.1:5000
 
-# Frontend
+## Frontend
 - dockerコンテナ(teal-l-f)内で以下を実行
 ```
 cd /team-project-l/frontend
 npm start
 ```
-- http://localhost:3000/にアクセス
+- URLはhttp://localhost:3000/
+
+# 実行
+- 環境構築の全手順を実行
+- [ローカルホスト](http://localhost:3000/)にアクセス
