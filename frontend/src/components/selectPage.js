@@ -42,6 +42,8 @@ const SelectPage = () => {
                     <Button color="default" variant="contained" size='large' component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[0] : null}} className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                         <table className="place">
                             <tbody>
+                                <tr>
+                                    <td><ImgPrefs prefs={areaInfoDictList.length ? areaInfoDictList[0]["middle_class_name"]:""} width="200"/></td>
                                 </tr>
                                 <tr>
                                     <td className="table_font">{areaInfoDictList.length ? areaInfoDictList[0]["middle_class_name"] : ""}<br/>
