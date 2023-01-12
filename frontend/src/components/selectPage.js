@@ -39,11 +39,9 @@ const SelectPage = () => {
             <h2 className='title'>どこにする?</h2>
             </div>
             <div className='select'>
-                    <Button color="default" variant="contained" size='large' component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[0] : null}} className='figsize_select' >
+                    <Button color="default" variant="contained" size='large' component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[0] : null}} className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                         <table className="place">
                             <tbody>
-                                <tr>
-                                    <td><ImgPrefs prefs={areaInfoDictList.length ? areaInfoDictList[0]["middle_class_name"]:""} width="200"/></td>
                                 </tr>
                                 <tr>
                                     <td className="table_font">{areaInfoDictList.length ? areaInfoDictList[0]["middle_class_name"] : ""}<br/>
@@ -54,8 +52,7 @@ const SelectPage = () => {
                         </table>
                         
                     </Button>
-
-                    <Button color='default' variant="contained" size="large" component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[1] : null}} className='figsize_select' style={{ margin: "5%"}}>
+                    <Button color='default' variant="contained" size="large" component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[1] : null}} className='figsize_select' style={{ margin: "5%",backgroundColor: "#ffffff"}}>
                         <table className="place">
                             <tbody>
                                 <tr>
@@ -69,8 +66,7 @@ const SelectPage = () => {
                             </tbody>
                         </table>
                     </Button>
-
-                    <Button color="default" variant="contained" size="large" component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[2] : null}} className='figsize_select' >
+                    <Button color="default" variant="contained" size="large" component={Link} /*onClick={handleClick_select1}}*/ to="/result" state ={{areaInfoDict: areaInfoDictList.length ? areaInfoDictList[2] : null}} className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                         <table className="place">
                             <tbody>
                                 <tr>
