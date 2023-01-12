@@ -1,151 +1,169 @@
 body {
-    background-color: #FFF0C8;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 70px;
-    margin-right: 70px;
-  }
+  background-color: #FFF0C8;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 
 .h2 {
-  color: #7EC2C2;
-  font-size: 40px; 
+color: #7EC2C2;
+font-size: 40px; 
 }
 
 .App {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 .title {
-    color:rgb(75, 75, 75);
-    text-align: center;
-    font-size: 55px;
+  color:rgb(75, 75, 75);
+  text-align: center;
+  font-size: 55px;
+  position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    width: 480px;
-    height: 480px;
-    /* animation: App-logo-spin infinite 20s linear; */
-  }
+.App-logo {
+  width: 480px;
+  height: 480px;
+  /* animation: App-logo-spin infinite 20s linear; */
+}
 }
 
 @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /*地域選択画面用*/
 .return_to_top {
-  position: center; 
-  z-index: 10000;
-  top: 700px; 
-  text-align: center;
+position: center; 
+z-index: 10000;
+top: 700px; 
+text-align: center;
 }
 
 .select {
-  position: center; 
-  z-index: 10000;
-  text-align: center;
+position: center; 
+z-index: 10000;
+text-align: center;
 }
 
 .figsize_select {
-  width: 300px;
-  height: 400px;
-  color: rgb(255, 255, 255);
-  background-color:rgb(217, 217, 217);
+width: 30%;
+max-width: 300px;
+height: 400px;
+color: rgb(255, 255, 255);
+background-color:rgb(217, 217, 217);
 }
 
 .table_font {
-  color: #52aab6;
-  font-size: 20px; 
-  font-weight: bolder;
+color: #52aab6;
+font-size: 20px; 
+font-weight: bolder;
 }
 
 .place {
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-  font-size: 18px;
+height: 100%;
+background-color: rgb(255, 255, 255);
+font-size: 18px;
 }
 
 /*検索結果ページ用*/
 .Button-to-SelectPage {
-  position: absolute; 
-  z-index: 10000; /*これが大きいほど前面に表示される*/
-  top: 810px;
-  left: 150px; 
-  text-align: left;
+position: absolute; 
+z-index: 10000; /*これが大きいほど前面に表示される*/
+top: 810px;
+left: 150px; 
+text-align: left;
 }
 
 .Button-to-TopPage {
-  position: absolute; 
-  z-index: 10000;
-  top: 810px; 
-  right: 150px; 
-  text-align: right;
+position: absolute; 
+z-index: 10000;
+top: 810px; 
+right: 150px; 
+text-align: right;
 }
 
 .box1 {
-  padding: 0.0em 1em;
-  margin: 0em 0;
-  width: 230px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  color: #6091d3;/*文字色*/
-  background: #cde4ff;
-  border-radius: 10px;/*角の丸み*/
+padding: 0.0em 1em;
+margin: 0em 0;
+width: 230px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #6091d3;/*文字色*/
+background: #cde4ff;
+border-radius: 10px;/*角の丸み*/
 }
 
 .box1 p {
-  margin: 0; 
-  padding: 0;
+margin: 0; 
+padding: 0;
 }
 
 .Hotels {
-  position: absolute;
-  z-index: 10000;
-  /*top: 300px; /* 上から10px移動 */
-  left: 100px; /* 左から20px移動 */
+position: absolute;
+z-index: 1000;
+margin-left: auto;
+margin-right: auto;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.cards{
+height: 500px;
+width: 350px;
+}
+
+.map{
+text-align: center;
+width: 100%;
+}
+
+.hotel_name{
+font-size: 90%;
 }
 
 /*画像ファイルの位置とサイズを調整*/
 .fig_Daibutu {
-  position: absolute; 
-  z-index: 0;
-  top: 400px; 
-  left: 200px; 
+position: absolute; 
+z-index: 0;
+top: 400px; 
+left: 0px; 
 }
 
 
 .fig_Tera {
-  position: absolute; 
-  z-index: 0;
-  top: 300px; 
-  left: 700px; 
+position: absolute; 
+z-index: 0;
+top: 180px; 
+left: 1110px;
 }
 
 .fig_RyokouKaban {
-  position: absolute; 
-  z-index: 100;
-  top: 600px; 
-  left: 700px; 
+position: absolute; 
+z-index: 100;
+top: 150px; 
+left: 800px; 
 }
 
 
 .fig_RyokouKaban2 {
-  position: absolute; 
-  z-index: 100;
-  top: 650px; 
-  left: 500px; 
+position: absolute; 
+z-index: 100;
+top: 680px; 
+left: 450px; 
 }
 
 .fig_HotelMan {
-  position: absolute; 
-  z-index: 0;
-  top: 230px; 
-  left: 400px; 
+position: absolute; 
+z-index: 0;
+top: 200px; 
+left: 400px; 
 }
