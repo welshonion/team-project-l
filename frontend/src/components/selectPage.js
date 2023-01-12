@@ -48,7 +48,7 @@ const SelectPage = () => {
     return (
         <div>
             <div className='Main'>
-            <h2 className='title'>・どこにする?</h2>
+            <h2 className='title'>どこにする?</h2>
             </div>
             {console.log(areaInfoDictList)}
             <div className='select'>
