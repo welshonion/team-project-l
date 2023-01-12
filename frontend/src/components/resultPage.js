@@ -83,7 +83,7 @@ const ResultPage = () => {
                                 </Typography>
                             </CardContent>
 
-                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[0]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[0]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} />
+                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[0]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[0]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[0]["hotel_name"] : ""} className='map' />
 
                             <CardActions>
                                 <Button size="small" align="center" onClick={() => handleClick(0)} >予約する！</Button>
@@ -102,7 +102,7 @@ const ResultPage = () => {
                                 </Typography>
                             </CardContent>
 
-                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[1]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[1]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[1]["hotel_name"] : ""} />
+                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[1]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[1]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[1]["hotel_name"] : ""} className='map' />
 
                             <CardActions>
                                 <Button size="small" align="center" onClick={() => handleClick(1)} >予約する！</Button>
@@ -121,7 +121,7 @@ const ResultPage = () => {
                                 </Typography>
                             </CardContent>
 
-                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[2]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[2]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[2]["hotel_name"] : ""} />
+                            <Map latitude={hotelInfoDictList.length? hotelInfoDictList[2]["latitude"] : ""} longitude={hotelInfoDictList.length? hotelInfoDictList[2]["longitude"] : ""} hotel_name={hotelInfoDictList.length? hotelInfoDictList[2]["hotel_name"] : ""} className='map' />
 
                             <CardActions>
                                 <Button size="small" align="center" onClick={() => handleClick(2)} >予約する！</Button>
