@@ -33,6 +33,7 @@ class Map extends React.Component {
                 }}
                 useResizeHandler={true}
                 style={{ width: 300, height: 300 }}
+                className = {this.props.className}
             />
         );
     }

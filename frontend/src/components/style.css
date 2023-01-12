@@ -122,8 +122,9 @@ width: 350px;
 }
 
 .map{
-text-align: center;
+display: block;
 width: 100%;
+margin: auto;
 }
 
 .hotel_name{
