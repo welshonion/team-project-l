@@ -52,7 +52,7 @@ const SelectPage = () => {
             </div>
             {console.log(areaInfoDictList)}
             <div className='select'>
-                    <Button color="default" variant="contained" size='large' onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' backgroundColor: "#ffffff">
+                    <Button color="default" variant="contained" size='large' onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                         <table className="place">
                             <tr>
                                 <td><img src={aichi} width="200" alt="logo" /></td>
@@ -80,7 +80,7 @@ const SelectPage = () => {
                         </table>
                     </Button>
 
-                    <Button color="default" variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' backgroundColor: "#ffffff">
+                    <Button color="default" variant="contained" size="large" onClick={handleClick_select1} component={Link} to="/result" className='figsize_select' style={{backgroundColor: "#ffffff"}}>
                         <table className="place">
                             <tr>
                                 <td><img src={aomori}  height="200" alt="logo" /></td>
