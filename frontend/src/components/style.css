@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF4E1;
+    background-color: #FFF0C8;
     margin-top: 70px;
     margin-bottom: 70px;
     margin-left: 70px;
@@ -16,15 +16,15 @@ body {
   }
 
 .title {
-    color: #7EC2C2;
+    color:rgb(75, 75, 75);
     text-align: center;
     font-size: 55px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    width: 450px;
-    height: 450px;
+    width: 480px;
+    height: 480px;
     /* animation: App-logo-spin infinite 20s linear; */
   }
 }
@@ -75,7 +75,7 @@ body {
 .Button-to-SelectPage {
   position: absolute; 
   z-index: 10000; /*これが大きいほど前面に表示される*/
-  top: 770px;
+  top: 650px;
   left: 150px; 
   text-align: left;
 }
@@ -83,7 +83,7 @@ body {
 .Button-to-TopPage {
   position: absolute; 
   z-index: 10000;
-  top: 770px; 
+  top: 650px; 
   right: 150px; 
   text-align: right;
 }
@@ -105,25 +105,11 @@ body {
   padding: 0;
 }
 
-.card1 {
+.Hotels {
   position: absolute;
   z-index: 10000;
-  top: 260px; /* 上から10px移動 */
+  /*top: 300px; /* 上から10px移動 */
   left: 100px; /* 左から20px移動 */
-}
-
-.card2 {
-  position: absolute;
-  z-index: 10000;
-  top: 260px; /* 上から10px移動 */
-  left: 500px; /* 左から20px移動 */
-}
-
-.card3 {
-  position: absolute;
-  z-index: 10000;
-  top: 260px; /* 上から10px移動 */
-  left: 950px; /* 左から20px移動 */
 }
 
 /*画像ファイルの位置とサイズを調整*/
@@ -160,6 +146,6 @@ body {
 .fig_HotelMan {
   position: absolute; 
   z-index: 0;
-  top: 140px; 
-  left: 350px; 
+  top: 230px; 
+  left: 400px; 
 }

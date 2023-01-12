@@ -183,7 +183,8 @@ def get_hotel_data_json(area_info):
             "largeClassCode" : "japan",
             "middleClassCode" : area_info.middle_class_code,
             "smallClassCode" : area_info.small_class_code,
-            "detailClassCode" : area_info.detail_class_code
+            "detailClassCode" : area_info.detail_class_code,
+            "datumType" : 1
         }
     else:
         # パラメータ設定
@@ -193,11 +194,46 @@ def get_hotel_data_json(area_info):
             "largeClassCode" : "japan",
             "middleClassCode" : area_info.middle_class_code,
             "smallClassCode" : area_info.small_class_code,
+            "datumType" : 1
         }
 
     # APIを実行して結果を取得する
     result = requests.get(simple_hotel_search_url, param)
     json_result = result.json()
+    print(param)
 
     return json_result
 
+
+def get_hotel_data_json_with_dict(area_info_dict):
+
+    #####旅館の抽選#####
+
+    if area_info_dict["detail_existed"]:
+        # パラメータ設定
+        param = {
+            "applicationId" : application_id,
+            "format" : "json",
+            "largeClassCode" : "japan",
+            "middleClassCode" : area_info_dict["middle_class_code"],
+            "smallClassCode" : area_info_dict["small_class_code"],
+            "detailClassCode" : area_info_dict["detail_class_code"],
+            "datumType" : 1
+        }
+    else:
+        # パラメータ設定
+        param = {
+            "applicationId" : application_id,
+            "format" : "json",
+            "largeClassCode" : "japan",
+            "middleClassCode" : area_info_dict["middle_class_code"],
+            "smallClassCode" : area_info_dict["small_class_code"],
+            "datumType" : 1
+        }
+    
+    # APIを実行して結果を取得する
+    result = requests.get(simple_hotel_search_url, param)
+    json_result = result.json()
+    print(param)
+
+    return json_result
