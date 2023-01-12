@@ -14,7 +14,7 @@ class topPage extends React.Component {   //topPageクラスにReact.Component�
     render() {                          //画面表示の為のrenderメソッドを定義する
         return (
             <div className="App">
-                <h1 className="title">Iikanji no Title</h1>
+                <h1 className="title">「逃げ旅」メーカー</h1>
                 <img src={logo} className="App-logo" alt="logo" />
                 <Box textAlign='center'>
                     <Button color="secondary" variant="contained" size="large" onClick={handleClick1} component={Link} to="/select" endIcon={<AddLocationAltIcon />}>

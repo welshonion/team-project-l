@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF4E1;
+    background-color: #FFF0C8;
     margin-top: 70px;
     margin-bottom: 70px;
     margin-left: 70px;
@@ -16,15 +16,15 @@ body {
   }
 
 .title {
-    color: #7EC2C2;
+    color:rgb(75, 75, 75);
     text-align: center;
     font-size: 55px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    width: 450px;
-    height: 450px;
+    width: 480px;
+    height: 480px;
     /* animation: App-logo-spin infinite 20s linear; */
   }
 }
