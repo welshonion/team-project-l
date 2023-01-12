@@ -75,7 +75,7 @@ body {
 .Button-to-SelectPage {
   position: absolute; 
   z-index: 10000; /*これが大きいほど前面に表示される*/
-  top: 650px;
+  top: 810px;
   left: 150px; 
   text-align: left;
 }
@@ -83,7 +83,7 @@ body {
 .Button-to-TopPage {
   position: absolute; 
   z-index: 10000;
-  top: 650px; 
+  top: 810px; 
   right: 150px; 
   text-align: right;
 }
