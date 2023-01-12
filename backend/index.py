@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 #for local only
-#import config
-#config.write_environ()
+# import config
+# config.write_environ()
 
 import os,json
 from flask import Flask, render_template, request, redirect, url_for, session, make_response, jsonify
@@ -70,31 +70,23 @@ def select():
 # def result(selected_area):
 @app.route('/result', methods=['GET','POST'])
 def result():
-    # data = request.get_json()
-    # selected_area = data['selected_area']
+    # # 選択された地域の情報をセッションから取得
+    # for i in range(AREA_NUM):
+    #     area_info = rakutenapi.AreaInfo()
+    #     # area_info.load_from_session(session[f'area_info_json_{i}'])        
+    #     area_info_list.append(area_info)
+
+    # # area_info = area_info_list[selected_area]
+    # area_info_dict = area_info.get_dict()
+
+    # # 地域全体のホテル情報をjsonで取得
+    # hotel_data_json = rakutenapi.get_hotel_data_json(area_info=area_info)
+
+    # sessionが使えないため，POSTでarea_info_dictを取得，area_info_dictからホテル情報を取得
+    data = request.get_json()
+    area_info_dict = data['area_info_dict']
+    hotel_data_json = rakutenapi.get_hotel_data_json_with_dict(area_info_dict=area_info_dict)
     
-    # 選択された地域の情報をセッションから取得
-    area_info_list = []
-    area_data_json = rakutenapi.get_area_data_json() #TODO! sessionの代わり
-    prefs = area_data_json['areaClasses']['largeClasses'][0]['largeClass'][1]['middleClasses']
-    pref_idx_list = random.sample(list(range(0,len(prefs))),HOTEL_NUM)
-    
-    for i in range(AREA_NUM):
-        area_info = rakutenapi.AreaInfo()
-        print(area_info)
-        # TODO! selectで保存したsessionが消えている
-        # area_info.load_from_session(session[f'area_info_json_{i}'])
-        area_info = rakutenapi.AreaInfo() #TODO! sessionの代わり
-        area_info.load_from_api(area_data_json, pref_idx_list[i])
-        area_info_list.append(area_info)
-
-    # area_info = area_info_list[selected_area]
-    area_info = area_info_list[0] #TODO! selected_areaの代わり
-    area_info_dict = area_info.get_dict()
-
-    # 地域全体のホテル情報をjsonで取得
-    hotel_data_json = rakutenapi.get_hotel_data_json(area_info=area_info)
-
     # 指定数だけホテル情報を取得
     hotel_info_list = []
     hotel_info_dict_list = []
