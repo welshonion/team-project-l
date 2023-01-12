@@ -1,8 +1,20 @@
 # -*- coding: utf-8 -*-
 
-#for local only
-# import config
-# config.write_environ()
+import sys
+sys.path.append('../')
+
+try:
+    import config
+    config.write_environ()
+
+except:
+    print("config.pyファイルを親階層に配置してください!!")
+    print("Place the config.py file in the parent directory!!")
+    print("詳細はReadmeファイルを参照してください")
+    print("config.pyは動作に必要なため、この動作は想定された動作です")
+    print("プログラムを終了します")
+
+    sys.exit()
 
 import os,json
 from flask import Flask, render_template, request, redirect, url_for, session, make_response, jsonify

@@ -38,7 +38,6 @@ RUN git clone -b feature https://github.com/welshonion/team-project-l.git
 
 # npm install 
 WORKDIR /team-project-l/frontend
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" /dev/null
 RUN npm install --save --legacy-peer-deps
 
 # pip

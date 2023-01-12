@@ -1,11 +1,16 @@
 # team-project-l
 
 # 環境構築
+- このリポジトリをクローンする
+- config.pyファイルを取得(セキュリティのため取得方法は別途指定)
+- config.pyをこのリポジトリのディレクトリ直下に配置
 - 以下を実行
 ```
 docker build -t team-l .
 docker run -it -p 3000:3000 --name teal-l-f team-l 
 docker run -it -p 5000:5000 --name teal-l-b team-l 
+docker cp config.py teal-l-f:/team-project-l
+docker cp config.py teal-l-b:/team-project-l
 ```
 
 # Backend
@@ -19,8 +24,6 @@ python index.py
 
 # Frontend
 - dockerコンテナ(teal-l-f)内で以下を実行
-
-条件: node.jsがインストールされている(npmが必要なため)
 ```
 cd /team-project-l/frontend
 npm start
