@@ -121,6 +121,11 @@ height: 500px;
 width: 350px;
 }
 
+.map{
+text-align: center;
+width: 100%;
+}
+
 .hotel_name{
 font-size: 90%;
 }
