@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>チーム開発</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Iceland|Lobster|Megrim|Mountains+of+Christmas|Oleo+Script|Playball|Poiret+One|Unica+One&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class="header">
+    <section class="header-logo">旅館を抽選するやつ</section>
+  </div>
+
+  <div class="main">
+    <div class="contents">
+
+      <p>あなたの旅行先は・・・
+        {{ area_info_dict["middle_class_name"] }}
+        {{ area_info_dict["small_class_name"] }}
+        {% if area_info_dict["detail_existed"] == True %}
+          {{ area_info_dict["detail_class_name"] }}
+        {% endif %}
+        !!
+      </p>
+      
+      <br>
+
+      <p>周辺の宿泊施設</p>
+
+      {% for i in range(hotel_num) %}
+        <p>>{{ hotel_info_dict_list[i]['hotel_name'] }}</p>
+        <p>口コミ評価：{{ hotel_info_dict_list[i]['hotel_rating_ave'] }}</p>
+        <a href={{ hotel_info_dict_list[i]['hotel_url'] }}>詳細を見る</a>
+        <br>
+      {% endfor %}
+
+      <br>
+      <br>
+      <br>
+
+      <a href="/select">もう一度抽選する</a>
+      <br>
+      <a href="/">トップに戻る</a>
+
+    </div>
+  </div>
+
+  
+</body>
+</html>

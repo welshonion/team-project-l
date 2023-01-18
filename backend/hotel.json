@@ -1,0 +1,1361 @@
+{
+    "pagingInfo": {
+      "recordCount": 143,
+      "pageCount": 5,
+      "page": 1,
+      "first": 1,
+      "last": 30
+    },
+    "hotels": [
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 180441,
+              "hotelName": "ソラリア西鉄ホテル札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=180441",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=180441&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=180441",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=180441",
+              "hotelKanaName": "そらりあ　にしてつほてる　さっぽろ",
+              "hotelSpecial": "札幌駅から徒歩５分、北海道庁目の前の好立地！ゆっくりとくつろげる大浴場と美味しい朝食をご準備",
+              "hotelMinCharge": 6500,
+              "latitude": 155027.84,
+              "longitude": 508867.59,
+              "postalCode": "060-0004",
+              "address1": "北海道",
+              "address2": "札幌市中央区北4条西5-1-2",
+              "telephoneNo": "011-208-5555",
+              "faxNo": "011-205-3105",
+              "access": "札幌駅より徒歩にて約５分",
+              "parkingInformation": "有り　22台",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/180441/180441.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/180441.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/180441/180441_kan1.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/180441.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/180441/180441map.gif",
+              "reviewCount": 195,
+              "reviewAverage": 4.46,
+              "userReview": "家族旅行で利用させて頂きました。朝食はとても美味しかったです。ホテルは札幌駅に近いし、レンタカーの店もすぐ近くにあるので、お出かけはとても便利でした。　2022-12-13 17:46:58投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.28,
+              "locationAverage": 4.66,
+              "roomAverage": 4.44,
+              "equipmentAverage": 4.28,
+              "bathAverage": 4.3,
+              "mealAverage": 4.49
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 182561,
+              "hotelName": "京急ＥＸホテル札幌（２０２２年６月２９日開業）",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=182561",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=182561&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=182561",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=182561",
+              "hotelKanaName": "けいきゅういーえっくすほてるさっぽろ",
+              "hotelSpecial": "札幌駅北口(西改札)から徒歩1分　新千歳空港から乗り換え不要で40分",
+              "hotelMinCharge": 4250,
+              "latitude": 155038.42,
+              "longitude": 508868.96,
+              "postalCode": "0600806",
+              "address1": "北海道",
+              "address2": "札幌市北区北6条西4丁目2-6",
+              "telephoneNo": "011-737-3910",
+              "faxNo": "011-737-3912",
+              "access": "札幌駅北口（西改札）より徒歩1分",
+              "parkingInformation": "無",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/182561/182561.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/182561.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/182561/182561map.gif",
+              "reviewCount": 129,
+              "reviewAverage": 4.45,
+              "userReview": "札幌駅側で、ほとんど雨や雪に濡れることはない。全てにおいて不満なし。　2022-12-17 17:21:06投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.18,
+              "locationAverage": 4.85,
+              "roomAverage": 4.59,
+              "equipmentAverage": 4.17,
+              "bathAverage": 3.98,
+              "mealAverage": 4.14
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 625,
+              "hotelName": "ホテルマイステイズ札幌アスペン",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=625",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=625&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=625",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=625",
+              "hotelKanaName": "ほてるまいすていず　さっぽろ　あすぺん",
+              "hotelSpecial": "JR札幌駅北口前。清潔感に溢れ木の温もり漂う,優しく落ち着いた館内は女性のお客様からも好評です。",
+              "hotelMinCharge": 3600,
+              "latitude": 155044.2,
+              "longitude": 508868.7,
+              "postalCode": "060-0808",
+              "address1": "北海道",
+              "address2": "札幌市北区北８条西４丁目５番地",
+              "telephoneNo": "011-700-2111",
+              "faxNo": "011-700-2002",
+              "access": "■ＪＲ札幌駅より徒歩２分　■地下鉄さっぽろ駅より徒歩５分　■札幌駅前バスターミナルより徒歩５分",
+              "parkingInformation": "有58台（屋外・屋内)1泊1,500円(税込)先着順のため、予約不可とさせて頂きます。",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/625/625.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/625.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/625/625_lo.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/625.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/625/625map.gif",
+              "reviewCount": 3019,
+              "reviewAverage": 4.37,
+              "userReview": "旅行支援を使わせて頂いて泊まりました（ファクトリーのツリーを見に札幌に泊まったのですが、とても綺麗でした）で、朝食が美味しくてびっくりしました。家の子 ちゃんちゃん焼のホイル焼きを４個食べてました､､…　2022-12-16 18:22:44投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=625" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4,
+              "locationAverage": 4.72,
+              "roomAverage": 4.33,
+              "equipmentAverage": 3.86,
+              "bathAverage": 3.67,
+              "mealAverage": 4.43
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 635,
+              "hotelName": "ホテルグレイスリー札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=635",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=635&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=635",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=635",
+              "hotelKanaName": "ぐれいすりーさっぽろ",
+              "hotelSpecial": "ＪＲ札幌駅より地下街直結。JR札幌駅南口からの地上アクセスは徒歩1分　全室wi-fi接続無料",
+              "hotelMinCharge": 6200,
+              "latitude": 155030.03,
+              "longitude": 508871.15,
+              "postalCode": "060-0004",
+              "address1": "北海道",
+              "address2": "札幌市中央区北4条西4丁目",
+              "telephoneNo": "011-251-3211",
+              "faxNo": "011-241-8238",
+              "access": "札幌駅地下街（アピア・フードウォーク）より直結。JR札幌駅南口より徒歩1分とアクセス抜群。北海道読売新聞ビル7階",
+              "parkingInformation": "有料 (但し、オートバイは利用不可）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/635/635.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/635.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/635/635_heya.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/635.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/635/635map.gif",
+              "reviewCount": 4061,
+              "reviewAverage": 4.21,
+              "userReview": "外出から戻ってルームキーを受け取るだけなのに、チェックインの方の対応で５分近く待たされた。フロントに３名のスタッフの方がおられたのですが、受付は２つ開放。目が合っても声をかけてもらえず、そこだけ残念で…　2022-12-15 02:53:11投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=635" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4,
+              "locationAverage": 4.84,
+              "roomAverage": 3.86,
+              "equipmentAverage": 3.72,
+              "bathAverage": 3.58,
+              "mealAverage": 4.24
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 901,
+              "hotelName": "ホテルエミシア札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=901",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=901&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=901",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=901",
+              "hotelKanaName": "ほてるえみしあ　さっぽろ",
+              "hotelSpecial": "ＪＲ「新札幌駅」より徒歩３分！駐車場完備！地上１１５mの高さを誇る朝食会場からの絶景がお勧め",
+              "hotelMinCharge": 5000,
+              "latitude": 154936.75,
+              "longitude": 509317.16,
+              "postalCode": "004-0052",
+              "address1": "北海道",
+              "address2": "札幌市厚別区厚別中央2条5丁目",
+              "telephoneNo": "011-895-8811",
+              "faxNo": "011-895-8820",
+              "access": "《ＪＲ》新札幌駅：徒歩３分　《地下鉄》新さっぽろ駅：徒歩１分　《車》札幌南ＩＣ・大谷地ＩＣ：約１０分",
+              "parkingInformation": "１滞在 １，２００円（チェックインからチェックアウトまで、予約不要）",
+              "nearestStation": "新札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/901/901.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/901.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/901/901_room.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/901.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/901/901map.gif",
+              "reviewCount": 2098,
+              "reviewAverage": 4.27,
+              "userReview": "スカイツインのお部屋はとても景色が良く、本当は大浴場に行く予定でしたが、夜景を眺めながらのんびり過ごすことにしました。近くには、サンピアザduoなど商業施設もあり、夕飯の買い出しも便利です。ちょっと残…　2022-12-12 16:32:33投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=901" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.07,
+              "locationAverage": 4.51,
+              "roomAverage": 4.26,
+              "equipmentAverage": 4.04,
+              "bathAverage": 3.81,
+              "mealAverage": 4.36
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 172272,
+              "hotelName": "京王プレリアホテル札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=172272",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=172272&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=172272",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=172272",
+              "hotelKanaName": "けいおうぷれりあほてるさっぽろ",
+              "hotelSpecial": "札幌駅北口から徒歩３分！大浴場、湯上りラウンジ、フィットネスルームなど館内施設も充実",
+              "hotelMinCharge": 4550,
+              "latitude": 155043.84,
+              "longitude": 508867.31,
+              "postalCode": "060-0808",
+              "address1": "北海道",
+              "address2": "札幌市北区北8条西4丁目-11-1",
+              "telephoneNo": "011-205-8111",
+              "faxNo": "011-758-8300",
+              "access": "ＪＲ札幌駅北口より徒歩にて約３分",
+              "parkingInformation": "1,600円(税込,1泊1台)※事前予約不可・満車時近隣パーキング案内（提携無し）※二輪車不可",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/172272/172272.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/172272.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/172272/172272_kan1.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/172272.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/172272/172272map.gif",
+              "reviewCount": 653,
+              "reviewAverage": 4.53,
+              "userReview": "すべてにおいて最高です。また泊まりたいです。　2022-12-11 11:13:11投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.35,
+              "locationAverage": 4.63,
+              "roomAverage": 4.47,
+              "equipmentAverage": 4.39,
+              "bathAverage": 4.15,
+              "mealAverage": 4.25
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 559,
+              "hotelName": "センチュリーロイヤルホテル",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=559",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=559&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=559",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=559",
+              "hotelKanaName": "せんちゅりーろいやるほてる",
+              "hotelSpecial": "楽パック賞大賞2年連続受賞／札幌駅すぐ横の好立地／朝食高評価・全室Wi-Fi無料",
+              "hotelMinCharge": 3500,
+              "latitude": 155031.28,
+              "longitude": 508867.18,
+              "postalCode": "060-0005",
+              "address1": "北海道",
+              "address2": "札幌市中央区北5条西5丁目",
+              "telephoneNo": "011-221-2121",
+              "faxNo": "011-231-2538",
+              "access": "ＪＲ・地下鉄「札幌駅」南口より徒歩２分。地下ショッピングセンターアピアのフードウォークを通って地下直結で雨の日も安心。",
+              "parkingInformation": "ご滞在中１泊1300円税込（15時〜11時）、地下３階駐車場と斜向いの提携駐車場がご利用頂けます。",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/559/559.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/559.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/559/559_meal.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/559.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/559/559map.gif",
+              "reviewCount": 5422,
+              "reviewAverage": 4.31,
+              "userReview": "プラン名通りで、駅に近く観光にも便利でした。　2022-12-16 08:47:56投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.21,
+              "locationAverage": 4.85,
+              "roomAverage": 3.92,
+              "equipmentAverage": 4.08,
+              "bathAverage": 3.51,
+              "mealAverage": 4.56
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 163,
+              "hotelName": "ニューオータニイン札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=163",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=163&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=163",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=163",
+              "hotelKanaName": "にゅーおーたにいんさっぽろ",
+              "hotelSpecial": "＜２月〜８月連続！宿泊人数北海道No.1＞JR札幌駅へ徒歩8分、大通公園へ徒歩5分の好立地。",
+              "hotelMinCharge": 2310,
+              "latitude": 155023.59,
+              "longitude": 508889.85,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北2条西1丁目1-1",
+              "telephoneNo": "011-222-1111",
+              "faxNo": "011-222-5521",
+              "access": "ＪＲ札幌駅徒歩8分。JR札幌駅より直結地下通路で地下鉄さっぽろ駅22番出口徒歩1分。新千歳空港よりバスで約70分。",
+              "parkingInformation": "有　70台 1泊(12時〜翌12時の24時間）\1800円",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/163/163.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/163.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/163/163_r.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/163.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/163/163map.gif",
+              "reviewCount": 4412,
+              "reviewAverage": 4.08,
+              "userReview": "部屋はセンスが良く、朝食も美味しかったです。水回りに古さを感じてしまいましたが、浴槽は広くゆったり入れました。　2022-12-12 18:15:06投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.9,
+              "locationAverage": 4.28,
+              "roomAverage": 3.97,
+              "equipmentAverage": 3.74,
+              "bathAverage": 3.43,
+              "mealAverage": 3.98
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 724,
+              "hotelName": "京王プラザホテル札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=724",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=724&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=724",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=724",
+              "hotelKanaName": "けいおうぷらざほてる　さっぽろ",
+              "hotelSpecial": "札幌駅西口徒歩5分。全室禁煙、Wi-Fi完備。道産食材を豊富に使った朝食ブッフェは実演コーナーも充実",
+              "hotelMinCharge": 4250,
+              "latitude": 155030.35,
+              "longitude": 508856.63,
+              "postalCode": "060-0005",
+              "address1": "北海道",
+              "address2": "札幌市中央区北5条西7丁目",
+              "telephoneNo": "011-271-0111",
+              "faxNo": "011-221-5450",
+              "access": "【JR札幌駅西口】から徒歩5分。西口を出てJR高架沿いに3ブロック直進。新千歳空港からホテル行きバス利用で約80分",
+              "parkingInformation": "有（1泊1台￥1500）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/724/724.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/724.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/724/724_kyaku.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/724.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/724/724map.gif",
+              "reviewCount": 5006,
+              "reviewAverage": 4.57,
+              "userReview": "ホテルの従業員の皆さまの対応がいつも素晴らしく、快適に過ごさせていただきました、朝食も品数が豊富で、堪能させていただきました、　2022-12-04 13:14:36投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.5,
+              "locationAverage": 4.42,
+              "roomAverage": 4.47,
+              "equipmentAverage": 4.32,
+              "bathAverage": 3.79,
+              "mealAverage": 4.63
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 67259,
+              "hotelName": "クロスホテル札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=67259",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=67259&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=67259",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=67259",
+              "hotelKanaName": "くろすほてるさっぽろ",
+              "hotelSpecial": "大通と札幌駅のほぼ中央に位置☆最上階に展望大浴場完備☆全室禁煙室☆",
+              "hotelMinCharge": 5250,
+              "latitude": 155021.53,
+              "longitude": 508884.02,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北2条西2-23",
+              "telephoneNo": "011-272-0010",
+              "faxNo": "011-272-0020",
+              "access": "札幌駅・大通駅から徒歩5分。ビジネスにも観光にも便利な好立地。札幌駅前通地下歩行空間「3番出口」から徒歩3分。",
+              "parkingInformation": "１泊1,500円（先着順・予約不可）※詳細情報のその他欄をご確認下さい。",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/67259/67259.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/67259.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/67259/67259_sp.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/67259.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/67259/67259map.gif",
+              "reviewCount": 1783,
+              "reviewAverage": 4.3,
+              "userReview": "彼の誕生日祝いで利用しました。丁寧にMailで対応も頂き、最高の誕生日を迎えられました。素敵なバースデープレートもありがとうございました。お部屋も広い部屋に変更頂き感謝です。　2022-12-13 19:05:45投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.28,
+              "locationAverage": 4.31,
+              "roomAverage": 4.4,
+              "equipmentAverage": 4.06,
+              "bathAverage": 4.14,
+              "mealAverage": 4.1
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 68288,
+              "hotelName": "ホテルマイステイズ札幌駅北口",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=68288",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=68288&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=68288",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=68288",
+              "hotelKanaName": "ほてるまいすていずさっぽろえききたぐち",
+              "hotelSpecial": "札幌駅北口まで徒歩2分！バス・JR・地下鉄でどこに行くにも便利♪",
+              "hotelMinCharge": 3528,
+              "latitude": 155046.14,
+              "longitude": 508870.49,
+              "postalCode": "060-0808",
+              "address1": "北海道",
+              "address2": "札幌市北区北8条西4-15",
+              "telephoneNo": "011-729-4055",
+              "faxNo": "011-729-0055",
+              "access": "ＪＲ札幌駅北口（北大側出口）から徒歩2分で駅近＆快適アクセス♪／地下鉄さっぽろ駅（南北線・東豊線）からも徒歩5分",
+              "parkingInformation": "【有り】40台・先着順・1泊1500円　※満車時は一般駐車場へご案内（料金はお客様負担となります）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/68288/68288.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/68288.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/68288/68288_t.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/68288.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/68288/68288map.gif",
+              "reviewCount": 3011,
+              "reviewAverage": 4.21,
+              "userReview": "久々に利用させていただきました。駅から近いのが便利です。トイレを使用中に気づきましたがサニタリーの袋が使用済みのままでした。残念。　2022-12-17 19:37:40投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.88,
+              "locationAverage": 4.52,
+              "roomAverage": 4.21,
+              "equipmentAverage": 3.93,
+              "bathAverage": 3.67,
+              "mealAverage": 3.85
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 72781,
+              "hotelName": "ＪＲイン札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=72781",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=72781&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=72781",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=72781",
+              "hotelKanaName": "じぇいあーるいんさっぽろ",
+              "hotelSpecial": "楽天トラベルゴールドアワード2020受賞！",
+              "hotelMinCharge": 3390,
+              "latitude": 155032.83,
+              "longitude": 508861.87,
+              "postalCode": "060-0005",
+              "address1": "北海道",
+              "address2": "札幌市中央区北5条西6丁目1",
+              "telephoneNo": "011-233-3008",
+              "faxNo": "011-233-3566",
+              "access": "ＪＲ札幌駅西側出入口から徒歩2分",
+              "parkingInformation": "【JR55パーキング】先着順：チェックイン日12時〜チェックアウト日12時、1,400円/泊",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/72781/72781.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/72781.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/72781/72781_s.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/72781.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/72781/72781map.gif",
+              "reviewCount": 3961,
+              "reviewAverage": 4.23,
+              "userReview": "駅から徒歩すぐで、立地は最高です。フロントで荷物を預かってもらえますし、案内も親切丁寧。　2022-12-17 16:39:21投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4,
+              "locationAverage": 4.52,
+              "roomAverage": 4.18,
+              "equipmentAverage": 3.95,
+              "bathAverage": 3.7,
+              "mealAverage": 3.52
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 17678,
+              "hotelName": "シャトレーゼ　ガトーキングダムサッポロ　ホテル＆スパリゾート",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=17678",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=17678&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=17678",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=17678",
+              "hotelKanaName": "しゃとれーぜ　がとーきんぐだむさっぽろ　ほてるあんどすぱりぞーと",
+              "hotelSpecial": "JR札幌駅から無料送迎バスを運行中！札幌のリゾートホテルでプール＆温泉をお楽しみ下さい。",
+              "hotelMinCharge": 4432,
+              "latitude": 155407.27,
+              "longitude": 508893.41,
+              "postalCode": "002-8043",
+              "address1": "北海道",
+              "address2": "札幌市北区東茨戸132",
+              "telephoneNo": "011-773-2211",
+              "faxNo": "011-773-0758",
+              "access": "新千歳空港からお車で90分、JR札幌駅北口からご予約不要の無料送迎バスが毎日運行中（2015年6月1日よりダイヤ改正）",
+              "parkingInformation": "屋外・屋内あわせて2,000台駐車可能（無料）",
+              "nearestStation": "麻生",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/17678/17678.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/17678.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/17678/17678_r1.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/17678.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/17678/17678map.gif",
+              "reviewCount": 1221,
+              "reviewAverage": 4.03,
+              "userReview": "家からも近いし日帰りでも良かったが、宿泊の方が旅行支援で安くお得なので泊まりました。スイートということでかなり広かった。ベットは昔ながらのスプリングで硬くて腰が痛くなったが、ホテルの接客応対が素晴らし…　2022-12-14 12:32:18投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=17678" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.99,
+              "locationAverage": 3.64,
+              "roomAverage": 3.95,
+              "equipmentAverage": 3.84,
+              "bathAverage": 3.93,
+              "mealAverage": 3.93
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 153500,
+              "hotelName": "ＪＲイン札幌駅南口",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=153500",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=153500&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=153500",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=153500",
+              "hotelKanaName": "じぇいあーるいんさっぽろえきみなみぐち",
+              "hotelSpecial": "ＪＲ札幌駅徒歩７分 地下鉄さっぽろ駅出口徒歩2分 ！大浴場・ラウンジを備えた快適設備のホテル",
+              "hotelMinCharge": 3890,
+              "latitude": 155026.44,
+              "longitude": 508891.91,
+              "postalCode": "060-0003",
+              "address1": "北海道",
+              "address2": "札幌市中央区北3条西1丁目10番",
+              "telephoneNo": "011-231-8111",
+              "faxNo": "011-231-8112",
+              "access": "★地下鉄さっぽろ駅21・22番出口より徒歩2分　★JR札幌駅より徒歩約７分　★地下鉄大通駅30番出口より徒歩7分",
+              "parkingInformation": "有り30台　先着順予約不可 1泊1200円 サイズ制限有,満車時は提携駐車場を紹介 1泊1200円",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/153500/153500.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/153500.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/153500/153500map.gif",
+              "reviewCount": 802,
+              "reviewAverage": 4.24,
+              "userReview": "落ち着いた雰囲気で、とても良かったです。室外の音も、気になりませんでした。また、利用させて頂きます。　2022-12-11 11:41:21投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.08,
+              "locationAverage": 4.19,
+              "roomAverage": 4.24,
+              "equipmentAverage": 3.9,
+              "bathAverage": 3.93,
+              "mealAverage": 3.86
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 56806,
+              "hotelName": "ホテルルートイン　札幌駅前北口",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=56806",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=56806&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=56806",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=56806",
+              "hotelKanaName": "るーといん　さっぽろえきまえきたぐち",
+              "hotelSpecial": "札幌駅北口から徒歩1分■ＷＯＷＯＷ全室で無料視聴可■朝食無料サービス＆大浴場あり！",
+              "hotelMinCharge": 4000,
+              "latitude": 155039.57,
+              "longitude": 508870.8,
+              "postalCode": "060-0807",
+              "address1": "北海道",
+              "address2": "札幌市北区北7条西4-2-2",
+              "telephoneNo": "011-727-2111",
+              "faxNo": "011-727-2115",
+              "access": "ＪＲ札幌駅下車、北口より徒歩１分。新千歳空港からJR線快速列車で４０分",
+              "parkingInformation": "ご到着順にてご案内。ご予約は承れません。１泊につき１０００円／１台。ハイルーフタイプ用もございます。",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/56806/56806.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/56806.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/56806/56806map.gif",
+              "reviewCount": 2902,
+              "reviewAverage": 3.98,
+              "userReview": "駅に近くて便利だった。　2022-12-14 06:18:27投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.89,
+              "locationAverage": 4.83,
+              "roomAverage": 3.76,
+              "equipmentAverage": 3.77,
+              "bathAverage": 3.94,
+              "mealAverage": 3.91
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 169,
+              "hotelName": "ＡＮＡクラウンプラザホテル札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=169",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=169&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=169",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=169",
+              "hotelKanaName": "えーえぬえーくらうんぷらざほてるさっぽろ",
+              "hotelSpecial": "全室禁煙・ＪＲ札幌駅徒歩7分、21番口経由で地下鉄東豊線乗車口徒歩3分、空港バス停車",
+              "hotelMinCharge": 3900,
+              "latitude": 155028,
+              "longitude": 508891.49,
+              "postalCode": "060-0003",
+              "address1": "北海道",
+              "address2": "札幌市中央区北3条西1丁目",
+              "telephoneNo": "011-221-4411",
+              "faxNo": "011-222-7624",
+              "access": "JR札幌駅より徒歩7分/地下鉄東豊線さっぽろ駅21番出口（階段）より徒歩1分・23番出口（エレベーター）より徒歩2分",
+              "parkingInformation": "79台収容（1泊￥2,000/地下駐車場：車高1.9m迄/国道5号線北方面沿い）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/169/169.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/169.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/169/169_room.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/169.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/169/169map.gif",
+              "reviewCount": 4120,
+              "reviewAverage": 4.38,
+              "userReview": "家族旅行で利用。旅行支援が始まる前に予約していたが、幸い適用されとても安く泊まれました。部屋も広くて狭い部屋のホテルが嫌いな息子も満足でした。朝食も種類が多くどれも美味しかったです。な…　2022-12-05 22:45:02投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=169" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.23,
+              "locationAverage": 4.39,
+              "roomAverage": 4.1,
+              "equipmentAverage": 4.07,
+              "bathAverage": 3.77,
+              "mealAverage": 4.41
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 183497,
+              "hotelName": "札幌ワシントンホテルプラザ",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=183497",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=183497&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=183497",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=183497",
+              "hotelKanaName": "さっぽろわしんとんほてるぷらざ",
+              "hotelSpecial": "2022年３月1日グランドオープン！ 札幌駅北口より徒歩2分の好立地　ビジネス、観光に大変便利です。",
+              "hotelMinCharge": 4050,
+              "latitude": 155040.43,
+              "longitude": 508887.41,
+              "postalCode": "060-0806",
+              "address1": "北海道",
+              "address2": "札幌市北区北6条西1-3-9",
+              "telephoneNo": "011-708-0410",
+              "faxNo": "011-708-0417",
+              "access": "JR札幌駅より徒歩2分",
+              "parkingInformation": "立体駐車場有り　25台　一泊＠1,200円（15：00〜翌11：00）　先着順",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/183497/183497.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/183497.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/183497/183497map.gif",
+              "reviewCount": 160,
+              "reviewAverage": 4.34,
+              "userReview": "最近のワシントンは綺麗になって、選択肢の一つになっている。設備も申し分ありません。フロントのスタッフらがちょっと鬱陶しいくらいです。　2022-12-17 17:23:05投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.04,
+              "locationAverage": 4.64,
+              "roomAverage": 4.46,
+              "equipmentAverage": 3.83,
+              "bathAverage": 3.9,
+              "mealAverage": 4.21
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 104743,
+              "hotelName": "三井ガーデンホテル札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=104743",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=104743&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=104743",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=104743",
+              "hotelKanaName": "みついがーでんほてるさっぽろ",
+              "hotelSpecial": "ＪＲ札幌駅南口徒歩約４分で便利な立地！ホテルゲスト専用の上質なプライベート空間に最新式セキュリティ。",
+              "hotelMinCharge": 4840,
+              "latitude": 155030.56,
+              "longitude": 508862.53,
+              "postalCode": "060-0005",
+              "address1": "北海道",
+              "address2": "札幌市中央区北5条西6-18-3",
+              "telephoneNo": "011-280-1131",
+              "faxNo": "011-280-1132",
+              "access": "JR札幌駅西改札より徒歩約4分　　",
+              "parkingInformation": "有料　先着順（車両制限あり） 　",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/104743/104743.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/104743.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/104743/104743_k1.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/104743.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/104743/104743map.gif",
+              "reviewCount": 1368,
+              "reviewAverage": 4.43,
+              "userReview": "12月5日、6日2泊しました。部屋は画像で見るよりちょっと狭い感じだったけど、寝るだけと考えるなら充分な広さ。綺麗な客室でしたね。駐車場料金が立地的に仕方ないと思いますが1泊1500円…　2022-12-09 15:35:21投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=104743" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.28,
+              "locationAverage": 4.61,
+              "roomAverage": 4.51,
+              "equipmentAverage": 4.17,
+              "bathAverage": 4.16,
+              "mealAverage": 4.08
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 50125,
+              "hotelName": "リッチモンドホテル札幌駅前",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=50125",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=50125&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=50125",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=50125",
+              "hotelKanaName": "りっちもんど　さっぽろえきまえ",
+              "hotelSpecial": "◆楽天トラベルアワード3年連続受賞◆札幌駅徒歩7分。大通公園至近。札幌ドーム約30分。",
+              "hotelMinCharge": 4230,
+              "latitude": 155025.36,
+              "longitude": 508889.32,
+              "postalCode": "060-0003",
+              "address1": "北海道",
+              "address2": "札幌市中央区北3西1丁目1-7",
+              "telephoneNo": "011-218-8555",
+              "faxNo": "011-218-8556",
+              "access": "◆ＪＲ札幌駅南口より徒歩7分（地下鉄東豊線22番出口徒歩0分！荷物の多い方は23番出口がおすすめ）",
+              "parkingInformation": "有り　30台　1,000円（税込／泊）　要電話予約",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/50125/50125.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/50125.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/50125/50125_tw.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/50125.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/50125/50125map.gif",
+              "reviewCount": 4090,
+              "reviewAverage": 4.11,
+              "userReview": "清掃や部屋、立地については快適に過ごすことができましたが、朝の清掃を10時くらいから始め、その際廊下で作業をするのでかなり音が気になりました。チェックアウトが11時なのに、出て行けと言わんばかりです。…　2022-12-01 11:26:42投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=50125" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.92,
+              "locationAverage": 4.15,
+              "roomAverage": 4.21,
+              "equipmentAverage": 4.03,
+              "bathAverage": 3.74,
+              "mealAverage": 3.81
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 179085,
+              "hotelName": "ＪＲイン札幌北２条",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=179085",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=179085&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=179085",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=179085",
+              "hotelKanaName": "じぇいあーるいんさっぽろきたにじょう",
+              "hotelSpecial": "新築キレイ■大浴場に22種類から選べる枕■hitaru目の前■バス・トイレ別■コンビニすぐ■全館禁煙",
+              "hotelMinCharge": 3650,
+              "latitude": 155022.65,
+              "longitude": 508887.99,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北2条西2丁目8番地1",
+              "telephoneNo": "011-212-1256",
+              "faxNo": "011-212-1254",
+              "access": "地下鉄東豊線さっぽろ駅２２番出口徒歩２分。ＪＲ札幌駅徒歩７分。札幌ドーム乗り換えなし＆札幌文化芸術劇場hitaru目の前",
+              "parkingInformation": "30台 1200円/泊　先着順　ハイルーフ有(高さ2mまで)　満車時は提携駐車場（1200円/泊）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/179085/179085.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/179085.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/179085/179085map.gif",
+              "reviewCount": 360,
+              "reviewAverage": 4.44,
+              "userReview": "出張で６泊利用させていただきました。今年は５回札幌市内の出張があった中で、一番よかったです。宿泊料金がリーズナブル・札幌駅と大通駅の中間で立地がよい・選べる枕がある・トイレとシャワーブースが別…　2022-12-12 11:56:41投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=179085" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.24,
+              "locationAverage": 4.33,
+              "roomAverage": 4.52,
+              "equipmentAverage": 4.31,
+              "bathAverage": 4.08,
+              "mealAverage": 3.73
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 142610,
+              "hotelName": "ネストホテル札幌駅前",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=142610",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=142610&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=142610",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=142610",
+              "hotelKanaName": "ねすとほてるさっぽろえきまえ",
+              "hotelSpecial": "JR「札幌駅」南口より徒歩６分。大通り公園、札幌時計台もすぐそば。ビジネスや観光の拠点に最適。",
+              "hotelMinCharge": 2600,
+              "latitude": 155021.76,
+              "longitude": 508887.25,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北二条西2-9",
+              "telephoneNo": "011-222-6611",
+              "faxNo": "011-222-6617",
+              "access": "ＪＲ「札幌駅」南口より徒歩６分。地下歩行空間３番出口より徒歩３分。",
+              "parkingInformation": "ホテル内→５ナンバーで車高１６０ｃｍ未満限定（1泊1,200円）。契約駐車場あり（1泊1,200円〜",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/142610/142610.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/142610.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/142610/142610map.gif",
+              "reviewCount": 961,
+              "reviewAverage": 3.94,
+              "userReview": "夜中に冷蔵庫か隣の部屋の空調かなにやらゴオーという音が不定期に鳴りよく眠れなかった　2022-12-15 23:16:49投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.85,
+              "locationAverage": 4.15,
+              "roomAverage": 3.52,
+              "equipmentAverage": 3.65,
+              "bathAverage": 3.12,
+              "mealAverage": 4.31
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 7523,
+              "hotelName": "ホテルモントレエーデルホフ札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=7523",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=7523&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=7523",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=7523",
+              "hotelKanaName": "もんとれえーでるほふ　さっぽろ",
+              "hotelSpecial": "2022年3月全客室ミラブルシャワーヘッドを設置。札幌市民交流プラザから徒歩1分に位置しております。",
+              "hotelMinCharge": 4875,
+              "latitude": 155023.94,
+              "longitude": 508893.05,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北２条西１丁目 1番地",
+              "telephoneNo": "011-242-7111",
+              "faxNo": "011-232-1212",
+              "access": "JR札幌駅より徒歩7分、地下鉄大通駅より徒歩5分。大通駅31番・さっぽろ駅22番、21番（エスカレーター）が便利です。",
+              "parkingInformation": "地下1階・地下2階、1泊1,500円（税込）　満車の際は了承下さい。",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/7523/7523.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/7523.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/7523/7523_sig.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/7523.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/7523/7523map.gif",
+              "reviewCount": 4104,
+              "reviewAverage": 4.51,
+              "userReview": "初めて利用しました。新しい南館はもちろん綺麗でしたが、連泊だと清掃が雑なような気がしました。ミラブルも初体験でしたが、水圧でシャワーカーテンがめくれてしまうのでユニットバス向きではないかもしれ…　2022-12-06 14:31:41投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=7523" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.4,
+              "locationAverage": 4.4,
+              "roomAverage": 4.43,
+              "equipmentAverage": 4.22,
+              "bathAverage": 3.95,
+              "mealAverage": 4.53
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 147185,
+              "hotelName": "アパホテル〈ＴＫＰ札幌駅前〉",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=147185",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=147185&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=147185",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=147185",
+              "hotelKanaName": "あぱほてる＜てぃーけーぴーさっぽろえきまえ＞",
+              "hotelSpecial": "JR札幌駅前の好立地。会議室を併設したハイブリッドホテル。",
+              "hotelMinCharge": 2925,
+              "latitude": 155023.29,
+              "longitude": 508885.23,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北2条西2-19ＴＫＰ札幌ビル6F",
+              "telephoneNo": "011-252-3167",
+              "faxNo": "011-798-7323",
+              "access": "ＪＲ札幌駅南口より徒歩5分。地下鉄「大通駅」より徒歩5分の好立地。札幌駅前通地下歩行空間3番出口徒歩2分",
+              "parkingInformation": "無し。近隣民間駐車場（有料）をご案内（詳しくはフロントまでお問合せ下さい。）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/147185/147185.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/147185.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/147185/147185_kan1.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/147185.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/147185/147185map.gif",
+              "reviewCount": 802,
+              "reviewAverage": 3.7,
+              "userReview": "立地も良く何度か利用しています。部屋のコップ類が個包装の紙コップで今の世の中とても衛生的で良いと思います。ただポットを使いたかったのですが汚れが目立っており使いませんでした。定期的に確認し…　2022-12-17 12:36:02投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=147185" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 3.71,
+              "locationAverage": 4.39,
+              "roomAverage": 3.47,
+              "equipmentAverage": 3.68,
+              "bathAverage": 3.23,
+              "mealAverage": 3.43
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 79254,
+              "hotelName": "ホテル京阪　札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=79254",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=79254&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=79254",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=79254",
+              "hotelKanaName": "ほてるけいはん　さっぽろ",
+              "hotelSpecial": "JR「札幌」駅より徒歩約4分！湯上りアイス始めました☆",
+              "hotelMinCharge": 4000,
+              "latitude": 155034.94,
+              "longitude": 508859.5,
+              "postalCode": "060-0806",
+              "address1": "北海道",
+              "address2": "札幌市北区北6条西6丁目1-9",
+              "telephoneNo": "011-758-0321",
+              "faxNo": "011-758-0987",
+              "access": "【新千歳空港からホテルまで約44分】JR「札幌」駅西改札口より徒歩約4分★詳しくはアクセスページをご覧ください。",
+              "parkingInformation": "有　20台先着順　一泊1,500円　満車の際同料金にて提携駐車場ご案内(途中出庫不可)",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/79254/79254.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/79254.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/79254/79254_ka.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/79254.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/79254/79254map.gif",
+              "reviewCount": 2976,
+              "reviewAverage": 4.35,
+              "userReview": "ホテル自体は、キレイ。チェックイン時のフロントの方の対応が冷たくガッカリした。部屋のエアコンをつけると、カラカラと異音がするので、寝る前に仕方なく止めたがやはり寒かった。リピートはしません。　2022-12-10 11:19:32投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.2,
+              "locationAverage": 4.41,
+              "roomAverage": 4.17,
+              "equipmentAverage": 4.08,
+              "bathAverage": 3.95,
+              "mealAverage": 4.05
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 127,
+              "hotelName": "ホテル法華クラブ札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=127",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=127&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=127",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=127",
+              "hotelKanaName": "ほっけくらぶ　さっぽろ",
+              "hotelSpecial": "札幌中心街に立地、どこへ行くにも好アクセス。いつも心からのおもてなしを。",
+              "hotelMinCharge": 4400,
+              "latitude": 155021.99,
+              "longitude": 508882.31,
+              "postalCode": "060-0002",
+              "address1": "北海道",
+              "address2": "札幌市中央区北2条西3丁目",
+              "telephoneNo": "011-221-2141",
+              "faxNo": "011-221-2145",
+              "access": "ＪＲ札幌駅南口徒歩5分、札幌駅前通地下歩行空間「3番出口」から徒歩1分　時計台すぐそば",
+              "parkingInformation": "無し　近隣民間駐車場（有料）をご案内（詳しくはフロントまでお問合せ下さい）",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/127/127.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/127.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/127/127_s.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/127.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/127/127map.gif",
+              "reviewCount": 2090,
+              "reviewAverage": 4.33,
+              "userReview": "12月15日宿泊しました。部屋も風呂も食事も立地も言うことなしです。ありがとうございました。　2022-12-17 16:02:58投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.32,
+              "locationAverage": 4.49,
+              "roomAverage": 4.04,
+              "equipmentAverage": 3.95,
+              "bathAverage": 4.13,
+              "mealAverage": 4.36
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 181090,
+              "hotelName": "天然温泉　大志の湯　スーパーホテル札幌・北５条通",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=181090",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=181090&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=181090",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=181090",
+              "hotelKanaName": "すーぱーほてるさっぽろ・きたごじょうどおり　てんねんおんせん　たいしのゆ",
+              "hotelSpecial": "平面駐車場51台完備！男女別天然温泉・焼きたてパン無料朝食付き！ ＪＤパワー７年連続ＮＯ．１",
+              "hotelMinCharge": 3240,
+              "latitude": 155025.13,
+              "longitude": 508832.55,
+              "postalCode": "060-0004",
+              "address1": "北海道",
+              "address2": "札幌市中央区北4条西12-1-4",
+              "telephoneNo": "011-555-9000",
+              "faxNo": "011-555-9010",
+              "access": "札幌駅より直進徒歩１５分、新千歳空港よりお車にて約６０分",
+              "parkingInformation": "有り　５００円（税込み／泊）先着順　51台(敷地内、バイク可）※駐輪場はありません。",
+              "nearestStation": "新千歳空港",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/181090/181090.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/181090.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/181090/181090map.gif",
+              "reviewCount": 227,
+              "reviewAverage": 4.34,
+              "userReview": "全国旅行支援を利用してリーズナブルに宿泊出来ました。札幌駅からやや距離がありますが、十分徒歩圏内です。天然温泉の浴場が快適で、朝食も美味しくいただきました。更にウエルカムドリンクサービスで、ソフト…　2022-12-17 21:12:06投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=181090" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.29,
+              "locationAverage": 3.51,
+              "roomAverage": 4.16,
+              "equipmentAverage": 4.25,
+              "bathAverage": 4.2,
+              "mealAverage": 4.11
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 178218,
+              "hotelName": "三井ガーデンホテル札幌ウエスト",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=178218",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=178218&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=178218",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=178218",
+              "hotelKanaName": "みつい　がーでんほてるさっぽろ　うえすと",
+              "hotelSpecial": "【札幌駅徒歩4分・宿泊者専用大浴場有】ホテル自慢のオリジナルクレープをオーダーできる朝食がおススメ！",
+              "hotelMinCharge": 5040,
+              "latitude": 155030.78,
+              "longitude": 508861.06,
+              "postalCode": "060-0005",
+              "address1": "北海道",
+              "address2": "札幌市中央区北五条西6-2-4",
+              "telephoneNo": "011-218-2231",
+              "faxNo": "011-218-5831",
+              "access": "ＪＲ　札幌駅　西改札より徒歩約4分",
+              "parkingInformation": "有料　先着順",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/178218/178218.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/178218.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/178218/178218map.gif",
+              "reviewCount": 264,
+              "reviewAverage": 4.46,
+              "userReview": "お風呂、シャワーが良かったです　2022-12-10 20:58:19投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.42,
+              "locationAverage": 4.63,
+              "roomAverage": 4.66,
+              "equipmentAverage": 4.3,
+              "bathAverage": 4.08,
+              "mealAverage": 4.15
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 851,
+              "hotelName": "ホテルクラビーサッポロ",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=851",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=851&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=851",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=851",
+              "hotelKanaName": "くらびー　さっぽろ",
+              "hotelSpecial": "ブロンズアワード２０２０年受賞！全室洗い場付お風呂とゆったり空間が魅力のシティホテル。",
+              "hotelMinCharge": 2500,
+              "latitude": 155025.16,
+              "longitude": 508912.2,
+              "postalCode": "060-0032",
+              "address1": "北海道",
+              "address2": "札幌市中央区北2条東3丁目　サッポロファクトリー西館",
+              "telephoneNo": "011-242-1111",
+              "faxNo": "011-242-3339",
+              "access": "ＪＲ「札幌駅」からタクシーで5分。市営地下鉄東西線バスセンター前駅（T10番）より8番出口ファクトリー方面徒歩5分",
+              "parkingInformation": "車高155㎝以下はホテル立体駐車場、それ以上はサッポロファクトリー駐車場。ご一泊700円　予約不要",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/851/851.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/851.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/851/851_heya1.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/851.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/851/851map.gif",
+              "reviewCount": 2602,
+              "reviewAverage": 4.11,
+              "userReview": "札幌では定宿です利用する側のマナーの問題ですが、隣の部屋の方が深夜に何度も音をたててドアを閉じられていたのが気になりました。　2022-12-13 20:03:50投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.03,
+              "locationAverage": 4.04,
+              "roomAverage": 4.44,
+              "equipmentAverage": 3.89,
+              "bathAverage": 4.19,
+              "mealAverage": 3.61
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 167971,
+              "hotelName": "ＪＲ東日本ホテルメッツ札幌",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=167971",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=167971&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=167971",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=167971",
+              "hotelKanaName": "じぇいあーるひがしにほんほてるめっつさっぽろ",
+              "hotelSpecial": "JR札幌駅東改札・北口より徒歩2分　地下鉄さっぽろ駅徒歩10分 ビジネス・テレワーク・レジャーに！",
+              "hotelMinCharge": 4950,
+              "latitude": 155043.53,
+              "longitude": 508883.05,
+              "postalCode": "060-0807",
+              "address1": "北海道",
+              "address2": "札幌市北区北7条西2丁目5-3",
+              "telephoneNo": "011-729-0011",
+              "faxNo": "011-729-0015",
+              "access": "ＪＲ札幌駅北口(東口側）徒歩約２分（代々木ゼミナールの隣）",
+              "parkingInformation": "専用・提携駐車場はございません。お近くのコインパーキング等をご利用ください。",
+              "nearestStation": "札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/167971/167971.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/167971.jpg",
+              "roomImageUrl": null,
+              "roomThumbnailUrl": null,
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/167971/167971map.gif",
+              "reviewCount": 435,
+              "reviewAverage": 4.6,
+              "userReview": "全て最高です。　2022-12-10 11:23:21投稿"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.24,
+              "locationAverage": 4.68,
+              "roomAverage": 4.64,
+              "equipmentAverage": 4.38,
+              "bathAverage": 4.63,
+              "mealAverage": 4.35
+            }
+          }
+        ]
+      },
+      {
+        "hotel": [
+          {
+            "hotelBasicInfo": {
+              "hotelNo": 813,
+              "hotelName": "新さっぽろアークシティホテル",
+              "hotelInformationUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/dQ4dX/?f_no=813",
+              "planListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/cHNRi/?f_no=813&f_flg=PLAN",
+              "dpPlanListUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/TDZXm/?noTomariHotel=813",
+              "reviewUrl": "https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=813",
+              "hotelKanaName": "しんさっぽろあーくしてぃほてる",
+              "hotelSpecial": "新札幌駅（JR・地下鉄・バス）直結　ショッピングセンター・レストラン街もあり便利なコミュニティホテル",
+              "hotelMinCharge": 3800,
+              "latitude": 154930.9,
+              "longitude": 509314.52,
+              "postalCode": "004-0052",
+              "address1": "北海道",
+              "address2": "札幌市厚別区厚別中央2条5丁目6-2",
+              "telephoneNo": "011-890-2525",
+              "faxNo": "011-890-2520",
+              "access": "ＪＲ快速で新千歳空港より約２８分、札幌駅まで約８分、地下鉄で大通駅まで１９分",
+              "parkingInformation": "提携駐車場有り（ショッピングセンター施設共用・有料）アークシティ「デュオ駐車場」「北駐車場」",
+              "nearestStation": "新札幌",
+              "hotelImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/813/813.jpg",
+              "hotelThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/90/813.jpg",
+              "roomImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/813/813_dxt.jpg",
+              "roomThumbnailUrl": "https://img.travel.rakuten.co.jp/HIMG/INTERIOR/813.jpg",
+              "hotelMapImageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/813/813map.gif",
+              "reviewCount": 2072,
+              "reviewAverage": 4.54,
+              "userReview": "駅近くて、食事や買い物にも便利。　札幌駅近くに宿泊するより、交通便利でコスパが良い。朝食ブッフェの中にエッグステーションがあることも、とても良い。朝食の質も良く満足度が高い。　駅からのアクセス…　2022-12-17 17:35:21投稿 <a href="https://img.travel.rakuten.co.jp/image/tr/api/hs/RmfmX/?f_hotel_no=813" class="3click">つづきはこちら</a>"
+            }
+          },
+          {
+            "hotelRatingInfo": {
+              "serviceAverage": 4.32,
+              "locationAverage": 4.92,
+              "roomAverage": 4.65,
+              "equipmentAverage": 4.38,
+              "bathAverage": 3.99,
+              "mealAverage": 4.47
+            }
+          }
+        ]
+      }
+    ]
+  }
